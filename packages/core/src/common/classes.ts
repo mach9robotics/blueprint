@@ -59,6 +59,7 @@ export const INTENT_PRIMARY = intentClass(Intent.PRIMARY)!;
 export const INTENT_SUCCESS = intentClass(Intent.SUCCESS)!;
 export const INTENT_WARNING = intentClass(Intent.WARNING)!;
 export const INTENT_DANGER = intentClass(Intent.DANGER)!;
+export const INTENT_MACH9 = intentClass(Intent.MACH9)!;
 
 export const FOCUS_DISABLED = `${NS}-focus-disabled`;
 export const FOCUS_STYLE_MANAGER_IGNORE = `${NS}-focus-style-manager-ignore`;

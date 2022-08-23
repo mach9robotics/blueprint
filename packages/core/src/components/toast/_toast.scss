@@ -14,6 +14,7 @@ $toast-intent-colors: (
   "success": ($pt-intent-success, $white, $green2, $green1),
   "warning": ($orange5, $dark-gray1, $orange4, $orange3),
   "danger": ($pt-intent-danger, $white, $red2, $red1),
+  "mach9": ($pt-intent-mach9, $white, $mach2, $mach1),
 ) !default;
 
 @mixin pt-toast-intent(

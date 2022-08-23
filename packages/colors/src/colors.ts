@@ -62,6 +62,12 @@ const coreColors = {
     RED3: "#CD4246",
     RED4: "#E76A6E",
     RED5: "#FA999C",
+
+    MACH1: "#3B8F73",
+    MACH2: "#4DB391",
+    MACH3: "#64E3B9",
+    MACH4: "#88F7D2",
+    MACH5: "#B3FFE5",
 };
 
 const extendedColors = {

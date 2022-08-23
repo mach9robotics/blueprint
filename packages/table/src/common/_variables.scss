@@ -9,6 +9,7 @@ $pt-intent-colors: (
   "success": $pt-intent-success,
   "warning": $pt-intent-warning,
   "danger" : $pt-intent-danger,
+  "mach9"  : $pt-intent-mach9,
 );
 
 $pt-intent-text-colors: (
@@ -16,6 +17,7 @@ $pt-intent-text-colors: (
   "success": $pt-intent-success,
   "warning": $pt-intent-warning,
   "danger" : $pt-intent-danger,
+  "mach9"  : $pt-intent-mach9,
 );
 
 $pt-dark-intent-text-colors: (
@@ -23,6 +25,7 @@ $pt-dark-intent-text-colors: (
   "success": $green4,
   "warning": $orange4,
   "danger" : $red4,
+  "mach9"  : $mach4,
 );
 
 $cell-border-width : 1px !default;

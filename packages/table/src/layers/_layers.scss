@@ -31,8 +31,8 @@ $region-selected-color: $pt-intent-primary !default;
   border: $cell-border-width solid $region-selected-color;
 
   .#{$ns}-dark & {
-    background-color: rgba($blue4, 0.1);
-    border: $cell-border-width solid $blue4;
+    background-color: rgba($mach4, 0.1);
+    border: $cell-border-width solid $mach4;
   }
 
   .#{$ns}-table-column-headers & {
@@ -47,7 +47,7 @@ $region-selected-color: $pt-intent-primary !default;
 }
 
 .#{$ns}-table-focus-region {
-  border: 2px solid $blue3;
+  border: 2px solid $mach3;
 }
 
 .#{$ns}-table-column-headers .#{$ns}-table-region {

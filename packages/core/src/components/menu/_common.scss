@@ -34,6 +34,7 @@ $menu-item-intent-colors: (
   "success": (/* bg */ $green3, /* fg */ $green2, /* fg active */ $green1),
   "warning": (/* bg */ $orange3, /* fg */ $orange2, /* fg active */ $orange1),
   "danger": (/* bg */ $red3, /* fg */ $red2, /* fg active */ $red1),
+  "mach9": (/* bg */ $mach3, /* fg */ $mach2, /* fg active */ $mach1),
 ) !default;
 
 $dark-menu-item-intent-colors: (
@@ -41,6 +42,7 @@ $dark-menu-item-intent-colors: (
   "success": (/* bg */ $green3, /* fg */ $green5, /* fg active */ $green6),
   "warning": (/* bg */ $orange3, /* fg */ $orange5, /* fg active */ $orange6),
   "danger": (/* bg */ $red3, /* fg */ $red5, /* fg active */ $red6),
+  "mach9": (/* bg */ $mach3, /* fg */ $mach5, /* fg active */ $mach6),
 ) !default;
 
 @mixin menu-item() {

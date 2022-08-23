@@ -164,7 +164,7 @@ $control-indicator-spacing: $pt-grid-size !default;
 
   input:focus ~ .#{$ns}-control-indicator {
     @include focus-outline();
-    outline: $blue3 solid 2px;
+    outline: $mach3 solid 2px;
   }
 
   // right-aligned indicator is glued to the right side of the container
@@ -310,7 +310,7 @@ $control-indicator-spacing: $pt-grid-size !default;
   $switch-checked-background-color: $control-checked-background-color !default;
   $switch-checked-background-color-hover: $control-checked-background-color-hover !default;
   $switch-checked-background-color-active: $control-checked-background-color-active !default;
-  $switch-checked-background-color-disabled: rgba($blue3, 0.5) !default;
+  $switch-checked-background-color-disabled: rgba($mach3, 0.5) !default;
 
   $dark-switch-text-color: $pt-dark-text-color !default;
   $dark-switch-text-color-disabled: $pt-dark-text-color-disabled !default;
@@ -323,7 +323,7 @@ $control-indicator-spacing: $pt-grid-size !default;
   $dark-switch-checked-background-color: $control-checked-background-color !default;
   $dark-switch-checked-background-color-hover: $control-checked-background-color-hover !default;
   $dark-switch-checked-background-color-active: $control-checked-background-color-active !default;
-  $dark-switch-checked-background-color-disabled: rgba($blue3, 0.5) !default;
+  $dark-switch-checked-background-color-disabled: rgba($mach3, 0.5) !default;
 
   $switch-indicator-background-color: rgba($gray3, 0.3) !default;
   $switch-indicator-box-shadow: 0 0 0 $button-border-width rgba($black, 0.5) !default;
@@ -506,7 +506,7 @@ $control-indicator-spacing: $pt-grid-size !default;
     }
 
     input:focus ~ .#{$ns}-control-indicator {
-      outline: $blue5 solid 2px;
+      outline: $mach5 solid 2px;
     }
 
     input:not(:disabled):active ~ .#{$ns}-control-indicator {
