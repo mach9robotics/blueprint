@@ -1,6 +1,6 @@
 {
     "name": "@mach9/blueprint-timezone",
-    "version": "4.4.7",
+    "version": "4.4.8",
     "description": "Components related to timezone selection and UI",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",
@@ -35,8 +35,8 @@
         "verify": "npm-run-all compile -p dist test lint"
     },
     "dependencies": {
-        "@mach9/blueprint-core": "^4.9.2",
-        "@mach9/blueprint-select": "^4.6.1",
+        "@mach9/blueprint-core": "^4.9.3",
+        "@mach9/blueprint-select": "^4.6.2",
         "classnames": "^2.2",
         "moment": "^2.29.0",
         "moment-timezone": "^0.5.31",

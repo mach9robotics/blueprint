@@ -1,6 +1,6 @@
 {
     "name": "@mach9/blueprint-datetime2",
-    "version": "0.5.3",
+    "version": "0.5.4",
     "description": "Components for interacting with dates and times with timezones",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",
@@ -35,10 +35,10 @@
         "verify": "npm-run-all compile -p dist test lint"
     },
     "dependencies": {
-        "@mach9/blueprint-core": "^4.9.2",
-        "@mach9/blueprint-datetime": "^4.3.7",
-        "@mach9/blueprint-popover2": "^1.6.1",
-        "@mach9/blueprint-select": "^4.6.1",
+        "@mach9/blueprint-core": "^4.9.3",
+        "@mach9/blueprint-datetime": "^4.3.8",
+        "@mach9/blueprint-popover2": "^1.6.2",
+        "@mach9/blueprint-select": "^4.6.2",
         "classnames": "^2.2",
         "date-fns": "^2.28.0",
         "date-fns-tz": "^1.3.4",

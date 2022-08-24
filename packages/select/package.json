@@ -1,6 +1,6 @@
 {
     "name": "@mach9/blueprint-select",
-    "version": "4.6.1",
+    "version": "4.6.2",
     "description": "Components related to selecting items from a list",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",
@@ -35,8 +35,8 @@
         "verify": "npm-run-all compile -p dist test lint"
     },
     "dependencies": {
-        "@mach9/blueprint-core": "^4.9.2",
-        "@mach9/blueprint-popover2": "^1.6.1",
+        "@mach9/blueprint-core": "^4.9.3",
+        "@mach9/blueprint-popover2": "^1.6.2",
         "classnames": "^2.2",
         "tslib": "~2.3.1"
     },

@@ -1,6 +1,6 @@
 {
     "name": "@mach9/blueprint-popover2",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "description": "Popover2 and dependent components",
     "main": "lib/cjs/index.js",
     "module": "lib/esm/index.js",
@@ -36,7 +36,7 @@
     },
     "dependencies": {
         "@juggle/resize-observer": "^3.3.1",
-        "@mach9/blueprint-core": "^4.9.2",
+        "@mach9/blueprint-core": "^4.9.3",
         "@popperjs/core": "^2.5.4",
         "classnames": "^2.2",
         "dom4": "^2.1.5",

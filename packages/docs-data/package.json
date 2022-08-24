@@ -1,6 +1,6 @@
 {
     "name": "@mach9/blueprint-docs-data",
-    "version": "4.9.1",
+    "version": "4.9.2",
     "main": "src/index.js",
     "types": "src/index.d.ts",
     "private": true,
@@ -11,8 +11,8 @@
     },
     "dependencies": {
         "@documentalist/compiler": "^4.0.0",
-        "@mach9/blueprint-core": "^4.9.2",
-        "@mach9/blueprint-docs-theme": "^4.4.1",
+        "@mach9/blueprint-core": "^4.9.3",
+        "@mach9/blueprint-docs-theme": "^4.4.2",
         "better-handlebars": "github:wmeldon/better-handlebars",
         "glob": "^7.2.0",
         "highlights": "^3.1.6",
