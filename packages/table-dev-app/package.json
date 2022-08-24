@@ -1,6 +1,6 @@
 {
     "name": "@mach9/blueprint-table-dev-app",
-    "version": "4.6.1",
+    "version": "4.6.2",
     "description": "Dev application for @mach9/blueprint-table",
     "private": true,
     "scripts": {
@@ -16,9 +16,9 @@
         "verify": "npm-run-all -p dist lint"
     },
     "dependencies": {
-        "@mach9/blueprint-core": "^4.9.0",
-        "@mach9/blueprint-popover2": "^1.6.0",
-        "@mach9/blueprint-table": "^4.6.1",
+        "@mach9/blueprint-core": "^4.9.2",
+        "@mach9/blueprint-popover2": "^1.6.1",
+        "@mach9/blueprint-table": "^4.6.2",
         "classnames": "^2.2.6",
         "dom4": "^2.1.5",
         "lodash-es": "^4.17.15",
@@ -27,7 +27,7 @@
         "react-dom": "^16.14.0"
     },
     "devDependencies": {
-        "@mach9/blueprint-webpack-build-scripts": "^3.2.1",
+        "@mach9/blueprint-webpack-build-scripts": "^3.2.2",
         "@types/lodash-es": "~4.17.3",
         "copy-webpack-plugin": "^7.0.0",
         "npm-run-all": "^4.1.5",

@@ -1,6 +1,6 @@
 {
     "name": "@mach9/blueprint-eslint-plugin",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "ESLint rules for use with @blueprintjs packages",
     "main": "lib/index.js",
     "scripts": {
@@ -17,7 +17,7 @@
         "eslint": "^8.21.0"
     },
     "devDependencies": {
-        "@mach9/blueprint-node-build-scripts": "^5.1.0",
+        "@mach9/blueprint-node-build-scripts": "^5.1.1",
         "@types/dedent": "^0.7.0",
         "dedent": "^0.7.0",
         "ts-node": "^9.1.1",

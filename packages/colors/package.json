@@ -1,6 +1,6 @@
 {
   "name": "@mach9/blueprint-colors",
-  "version": "4.1.6",
+  "version": "4.1.7",
   "description": "Blueprint color definitions",
   "main": "lib/index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "verify": "npm-run-all compile -p dist lint"
   },
   "devDependencies": {
-    "@mach9/blueprint-node-build-scripts": "^5.1.0",
+    "@mach9/blueprint-node-build-scripts": "^5.1.1",
     "mocha": "^9.2.2",
     "typescript": "~4.6.2"
   },

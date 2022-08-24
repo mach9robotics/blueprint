@@ -1,6 +1,6 @@
 {
     "name": "@mach9/blueprint-webpack-build-scripts",
-    "version": "3.2.1",
+    "version": "3.2.2",
     "description": "Webpack build scripts for @blueprintjs packages",
     "scripts": {
         "test": "exit 0"
