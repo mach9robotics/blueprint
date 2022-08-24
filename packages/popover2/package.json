@@ -1,5 +1,5 @@
 {
-    "name": "@blueprintjs/popover2",
+    "name": "@mach9/blueprint-popover2",
     "version": "1.6.0",
     "description": "Popover2 and dependent components",
     "main": "lib/cjs/index.js",
@@ -35,7 +35,7 @@
         "verify": "npm-run-all compile -p dist test lint"
     },
     "dependencies": {
-        "@blueprintjs/core": "^4.9.0",
+        "@mach9/blueprint-core": "^4.9.0",
         "@juggle/resize-observer": "^3.3.1",
         "@popperjs/core": "^2.5.4",
         "classnames": "^2.2",
@@ -64,7 +64,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:palantir/blueprint.git",
+        "url": "git@github.com:mach9robotics/blueprint.git",
         "directory": "packages/core"
     },
     "keywords": [
@@ -75,7 +75,7 @@
         "theme",
         "ui"
     ],
-    "author": "Palantir Technologies",
-    "license": "Apache-2.0",
+    "author": "Mach9 Robotics",
+    "license": "UNLICENSED",
     "gitHead": "8e6ebe2c36dc806aff613010c5525dbc9125bf6a"
 }
