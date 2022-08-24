@@ -24,6 +24,7 @@ const INTENTS = [
     { label: "Success", value: Intent.SUCCESS },
     { label: "Warning", value: Intent.WARNING },
     { label: "Danger", value: Intent.DANGER },
+    { label: "Mach9", value: Intent.MACH9 },
 ];
 
 export interface IIntentSelectProps {
