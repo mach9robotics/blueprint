@@ -63,5 +63,6 @@
         "documentalist"
     ],
     "author": "Palantir Technologies",
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "gitHead": "8e6ebe2c36dc806aff613010c5525dbc9125bf6a"
 }
