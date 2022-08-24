@@ -68,7 +68,8 @@ $button-intents: (
   "primary": ($blue3, $blue2, $blue1),
   "success": ($green3, $green2, $green1),
   "warning": ($orange3, $orange2, $orange1),
-  "danger": ($red3, $red2, $red1)
+  "danger": ($red3, $red2, $red1),
+  "mach9": ($mach3, $mach2, $mach1),
 ) !default;
 
 @mixin pt-button-layout() {
@@ -353,6 +354,7 @@ $dark-minimal-hover-text-colors: (
   "success": $green5,
   "warning": $orange5,
   "danger": $red5,
+  "mach9": $mach6,
 );
 
 $dark-minimal-active-text-colors: (
@@ -360,6 +362,7 @@ $dark-minimal-active-text-colors: (
   "success": $green6,
   "warning": $orange6,
   "danger": $red6,
+  "mach9": $mach6,
 );
 
 @mixin pt-button-minimal-intent($intent) {

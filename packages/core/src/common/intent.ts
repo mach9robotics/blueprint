@@ -25,6 +25,7 @@ export const Intent = {
     SUCCESS: "success" as "success",
     WARNING: "warning" as "warning",
     DANGER: "danger" as "danger",
+    MACH9: "mach9" as "mach9",
 };
 // eslint-disable-next-line @typescript-eslint/no-redeclare
 export type Intent = typeof Intent[keyof typeof Intent];

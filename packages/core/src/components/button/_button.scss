@@ -217,6 +217,50 @@ Styleguide button
       }
     }
   }
+
+  // special case override: use dark text for mach9 intent
+  &.#{$ns}-intent-mach9 {
+    background: $mach5;
+    color: $pt-text-color;
+
+    &:not(.#{$ns}-disabled).#{$ns}-icon > svg {
+      fill: rgba($dark-gray1, 0.7);
+    }
+
+    &:not(.#{$ns}-disabled):not(.#{$ns}-minimal):not(.#{$ns}-outlined) {
+      &:hover {
+        background: $mach4;
+        color: $pt-text-color;
+      }
+
+      &:active,
+      &.#{$ns}-active {
+        background: $mach3;
+        color: $pt-text-color;
+      }
+    }
+
+    &:disabled,
+    &.#{$ns}-disabled {
+      background: rgba($mach3, 0.5);
+      color: rgba($dark-gray1, 0.35);
+
+      .#{$ns}-dark & {
+        color: rgba($dark-gray1, 0.6);
+      }
+    }
+
+    &.#{$ns}-minimal,
+    &.#{$ns}-outlined {
+      background: none;
+
+      .#{$ns}-dark & {
+        &:not(.#{$ns}-disabled).#{$ns}-icon > svg {
+          fill: $mach5;
+        }
+      }
+    }
+  }
 }
 
 a.#{$ns}-button {
