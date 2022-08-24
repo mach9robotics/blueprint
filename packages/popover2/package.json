@@ -35,8 +35,8 @@
         "verify": "npm-run-all compile -p dist test lint"
     },
     "dependencies": {
-        "@mach9/blueprint-core": "^4.9.0",
         "@juggle/resize-observer": "^3.3.1",
+        "@mach9/blueprint-core": "^4.9.0",
         "@popperjs/core": "^2.5.4",
         "classnames": "^2.2",
         "dom4": "^2.1.5",
@@ -77,5 +77,5 @@
     ],
     "author": "Mach9 Robotics",
     "license": "UNLICENSED",
-    "gitHead": "8e6ebe2c36dc806aff613010c5525dbc9125bf6a"
+    "gitHead": "433b8c4efb881264d4c2450ca90b97e01b6516db"
 }

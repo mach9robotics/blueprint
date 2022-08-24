@@ -46,9 +46,9 @@
     "verify": "npm-run-all compile -p dist test lint"
   },
   "dependencies": {
-    "@mach9/blueprint-colors": "^4.1.6",
     "@blueprintjs/icons": "^4.4.1",
     "@juggle/resize-observer": "^3.3.1",
+    "@mach9/blueprint-colors": "^4.1.6",
     "@types/dom4": "^2.0.1",
     "classnames": "^2.2",
     "dom4": "^2.1.5",
@@ -100,5 +100,6 @@
   "directories": {
     "lib": "lib",
     "test": "test"
-  }
+  },
+  "gitHead": "433b8c4efb881264d4c2450ca90b97e01b6516db"
 }
