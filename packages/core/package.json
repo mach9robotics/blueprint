@@ -1,5 +1,5 @@
 {
-  "name": "@mach9/core",
+  "name": "@mach9/blueprint-core",
   "version": "4.9.1",
   "description": "Core styles & components",
   "main": "lib/cjs/index.js",
@@ -46,7 +46,7 @@
     "verify": "npm-run-all compile -p dist test lint"
   },
   "dependencies": {
-    "@z/colors": "^4.1.6",
+    "@mach9/blueprint-colors": "^4.1.6",
     "@blueprintjs/icons": "^4.4.1",
     "@juggle/resize-observer": "^3.3.1",
     "@types/dom4": "^2.0.1",

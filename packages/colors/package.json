@@ -1,5 +1,5 @@
 {
-  "name": "@mach9/colors",
+  "name": "@mach9/blueprint-colors",
   "version": "4.1.6",
   "description": "Blueprint color definitions",
   "main": "lib/index.js",
