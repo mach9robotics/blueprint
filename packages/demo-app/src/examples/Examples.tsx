@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Classes } from "@mach9/blueprint-core";
+// import { Classes } from "@mach9/blueprint-core";
 
 import { BreadcrumbExample } from "./BreadcrumbExample";
 import { ButtonExample } from "./ButtonExample";
@@ -84,7 +84,7 @@ export class Examples extends React.PureComponent {
         return (
             <div className="examples-root">
                 {this.renderExamples()}
-                {this.renderExamples(Classes.DARK)}
+                {/* {this.renderExamples(Classes.DARK)} */}
             </div>
         );
     }

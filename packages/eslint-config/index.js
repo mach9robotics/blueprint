@@ -27,7 +27,7 @@ module.exports = {
     extends: ["plugin:@mach9/blueprint-recommended", "plugin:import/typescript"],
     parserOptions: { ecmaVersion: 2017 },
     settings: {
-        "import/internal-regex": "^@blueprintjs",
+        "import/internal-regex": "^@mach9/blueprint-",
     },
     rules: {
         // HACKHACK: this rule impl has too many false positives

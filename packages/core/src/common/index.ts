@@ -14,6 +14,12 @@
  * limitations under the License.
  */
 
+import { Colors } from "@mach9/blueprint-colors";
+
+import * as Classes from "./classes";
+import * as Keys from "./keys";
+import * as Utils from "./utils";
+
 export * from "./abstractComponent";
 export * from "./abstractComponent2";
 export * from "./abstractPureComponent";
@@ -27,11 +33,5 @@ export * from "./position";
 export * from "./props";
 export * from "./refs";
 export { Classes, Keys, Utils, Colors };
-
-import { Colors } from "@mach9/blueprint-colors";
-
-import * as Classes from "./classes";
-import * as Keys from "./keys";
-import * as Utils from "./utils";
 
 // NOTE: Errors is not exported in public API
