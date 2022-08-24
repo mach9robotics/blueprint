@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { AbstractPureComponent2 } from "@blueprintjs/core";
+import { AbstractPureComponent2 } from "@mach9/blueprint-core";
 
 import * as Classes from "../common/classes";
 import { LoadableContent } from "../common/loadableContent";

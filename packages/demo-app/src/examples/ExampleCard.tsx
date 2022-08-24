@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Card, Classes, H4, H5 } from "@blueprintjs/core";
+import { Card, Classes, H4, H5 } from "@mach9/blueprint-core";
 
 export interface ExampleCardProps {
     children: React.ReactNode;

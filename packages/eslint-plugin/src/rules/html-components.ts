@@ -75,7 +75,7 @@ function create(context: TSESLint.RuleContext<MessageIds, []>, node: TSESTree.JS
                     // Add import for the new tag
                     const program = getProgram(node);
                     if (program !== undefined) {
-                        fixes.addFixes(addImportToFile(program, [newTagName], "@blueprintjs/core")(fixer));
+                        fixes.addFixes(addImportToFile(program, [newTagName], "@mach9/blueprint-core")(fixer));
                     }
 
                     return fixes.getFixes();

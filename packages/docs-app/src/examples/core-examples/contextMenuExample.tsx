@@ -19,13 +19,13 @@
  * All changes & bugfixes should be made to ContextMenu2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, max-classes-per-file, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, max-classes-per-file, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
 
-import { Classes, ContextMenu, ContextMenuTarget, Menu, MenuDivider, MenuItem } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
+import { Classes, ContextMenu, ContextMenuTarget, Menu, MenuDivider, MenuItem } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
 
 /**
  * This component uses the imperative ContextMenu API.

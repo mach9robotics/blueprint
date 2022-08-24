@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Checkbox, Radio } from "@blueprintjs/core";
+import { Checkbox, Radio } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

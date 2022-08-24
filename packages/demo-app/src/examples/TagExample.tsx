@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Intent, Tag } from "@blueprintjs/core";
+import { Intent, Tag } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { Utils } from "@blueprintjs/table/src";
+import { Utils } from "@mach9/blueprint-table/src";
 
 interface IDataRow<T> {
     [key: string]: T;

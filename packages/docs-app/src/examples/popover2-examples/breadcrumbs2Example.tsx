@@ -26,9 +26,9 @@ import {
     Label,
     RadioGroup,
     Slider,
-} from "@blueprintjs/core";
-import { Example, ExampleProps, handleStringChange } from "@blueprintjs/docs-theme";
-import { Breadcrumbs2 } from "@blueprintjs/popover2";
+} from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleStringChange } from "@mach9/blueprint-docs-theme";
+import { Breadcrumbs2 } from "@mach9/blueprint-popover2";
 
 export interface Breadcrumbs2ExampleState {
     collapseFrom: Boundary;

@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Button, Intent } from "@blueprintjs/core";
-import { IconNames } from "@blueprintjs/icons";
+import { Button, Intent } from "@mach9/blueprint-core";
+import { IconNames } from "@mach9/blueprint-icons";
 
 import { ExampleCard } from "./ExampleCard";
 

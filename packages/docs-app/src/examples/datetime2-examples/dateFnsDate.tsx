@@ -18,8 +18,8 @@ import classNames from "classnames";
 import { format, isValid } from "date-fns";
 import * as React from "react";
 
-import { Icon, Intent, Props, Tag } from "@blueprintjs/core";
-import { DateRange } from "@blueprintjs/datetime";
+import { Icon, Intent, Props, Tag } from "@mach9/blueprint-core";
+import { DateRange } from "@mach9/blueprint-datetime";
 
 const FORMAT = "EEEE, MMMM d, yyyy";
 const FORMAT_WITH_TIME = "MMMM d, yyyy 'at' K:mm a";

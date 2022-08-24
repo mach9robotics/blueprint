@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Switch } from "@blueprintjs/core";
+import { Switch } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

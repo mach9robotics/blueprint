@@ -27,7 +27,7 @@ import {
     Menu,
     MenuProps,
     Text,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 
 import * as Classes from "./classes";
 import { Popover2, Popover2Props } from "./popover2";

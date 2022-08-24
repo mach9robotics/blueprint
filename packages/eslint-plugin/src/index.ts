@@ -23,9 +23,9 @@ module.exports = {
         recommended: {
             plugins: ["@blueprintjs"],
             rules: {
-                "@blueprintjs/classes-constants": "error",
-                "@blueprintjs/html-components": "error",
-                "@blueprintjs/no-deprecated-components": "error",
+                "@mach9/blueprint-classes-constants": "error",
+                "@mach9/blueprint-html-components": "error",
+                "@mach9/blueprint-no-deprecated-components": "error",
             },
         },
     },

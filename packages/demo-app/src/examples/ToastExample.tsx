@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Intent, Toast } from "@blueprintjs/core";
+import { Intent, Toast } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

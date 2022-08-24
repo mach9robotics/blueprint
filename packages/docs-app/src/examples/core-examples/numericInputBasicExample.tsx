@@ -28,7 +28,7 @@ import {
     OptionProps,
     Position,
     Switch,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 import {
     Example,
     ExampleProps,
@@ -36,9 +36,9 @@ import {
     handleNumberChange,
     handleStringChange,
     handleValueChange,
-} from "@blueprintjs/docs-theme";
-import { IconNames } from "@blueprintjs/icons";
-import { Popover2 } from "@blueprintjs/popover2";
+} from "@mach9/blueprint-docs-theme";
+import { IconNames } from "@mach9/blueprint-icons";
+import { Popover2 } from "@mach9/blueprint-popover2";
 
 import { IntentSelect } from "./common/intentSelect";
 import { LOCALES } from "./common/locales";

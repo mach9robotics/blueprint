@@ -19,13 +19,13 @@
  * All changes & bugfixes should be made to TimezoneSelect instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import * as React from "react";
 
-import { H5, Position, Radio, RadioGroup, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@blueprintjs/docs-theme";
-import { TimezoneDisplayFormat, TimezonePicker } from "@blueprintjs/timezone";
+import { H5, Position, Radio, RadioGroup, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@mach9/blueprint-docs-theme";
+import { TimezoneDisplayFormat, TimezonePicker } from "@mach9/blueprint-timezone";
 
 import { CustomTimezonePickerTarget } from "./components";
 

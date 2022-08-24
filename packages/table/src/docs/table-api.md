@@ -5,7 +5,7 @@ reference: api
 @# JavaScript API
 
 The `Table`, `Column`, `Cell`, `ColumnHeaderCell2`, `EditableName`, and `EditableCell2`
-components are available in the __@blueprintjs/table__ package.
+components are available in the __@mach9/blueprint-table__ package.
 
 @## Table
 
@@ -66,11 +66,11 @@ name, you can supply a `nameRenderer` prop to the `ColumnHeaderCell2`.
 
 <h4 class="@ns-heading">Additional CSS required</h4>
 
-__ColumnHeaderCell2__ depends on @blueprintjs/popover2 styles, so you must remember to import
+__ColumnHeaderCell2__ depends on @mach9/blueprint-popover2 styles, so you must remember to import
 that package's stylesheet in your application in addition to `table.css`:
 
 ```scss
-@import "~@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+@import "~@mach9/blueprint-popover2/lib/css/blueprint-popover2.css";
 ```
 </div>
 
@@ -102,11 +102,11 @@ In order to use this API, supply a custom renderer function which returns a `Row
 
 <h4 class="@ns-heading">Additional CSS required</h4>
 
-__RowHeaderCell2__ depends on @blueprintjs/popover2 styles, so you must remember to import
+__RowHeaderCell2__ depends on @mach9/blueprint-popover2 styles, so you must remember to import
 that package's stylesheet in your application in addition to `table.css`:
 
 ```scss
-@import "~@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+@import "~@mach9/blueprint-popover2/lib/css/blueprint-popover2.css";
 ```
 </div>
 
@@ -136,7 +136,7 @@ recommend using our exported __factory methods__ to help you construct the
 appropriate schema for your desired region type:
 
 ```tsx
-import { Regions } from "@blueprintjs/table";
+import { Regions } from "@mach9/blueprint-table";
 
 const singleCellRegion   = Regions.cell(0, 0); // { rows: [0, 0], cols: [0, 0] }
 const singleColumnRegion = Regions.column(0);  // { rows: null, cols: [0, 0] }
@@ -149,7 +149,7 @@ const multiRowRegion    = Regions.row(0, 2);        // { rows: [0, 2], cols: nul
 const tableRegion = Regions.table(); // { rows: null, cols: null }
 ```
 
-The __@blueprintjs/table__ package also exports a `RegionCardinality`
+The __@mach9/blueprint-table__ package also exports a `RegionCardinality`
 enumeration to describe the various region types in code:
 - `RegionCardinality.CELLS`: describes a cell region
 - `RegionCardinality.FULL_ROWS`: describes a row region
@@ -160,7 +160,7 @@ This enumeration is primarily used with the `selectionModes` prop to inform the
 `Table` which kinds of regions are selectable:
 
 ```tsx
-import { RegionCardinality } from "@blueprintjs/table";
+import { RegionCardinality } from "@mach9/blueprint-table";
 
 // disables selection of all region types
 <Table selectionModes={[]} />
@@ -179,7 +179,7 @@ You may also use the exported `SelectionModes` enumeration to express common
 selection-mode combinations more concisely:
 
 ```tsx
-import { SelectionModes } from "@blueprintjs/table";
+import { SelectionModes } from "@mach9/blueprint-table";
 
 <Table selectionModes={SelectionModes.ALL} />
 <Table selectionModes={SelectionModes.COLUMNS_AND_CELLS} />
@@ -194,7 +194,7 @@ determine the cardinality of any region using the exported
 `Regions.getRegionCardinality` function:
 
 ```tsx
-import { Regions } from "@blueprintjs/table";
+import { Regions } from "@mach9/blueprint-table";
 
 const cardinalities = [
     Regions.getRegionCardinality(Regions.cell(0, 0)), // RegionCardinality.CELLS

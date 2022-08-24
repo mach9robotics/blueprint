@@ -19,21 +19,19 @@
  * All changes & bugfixes should be made to ColumnHeaderCell2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
 
 import {
-    AbstractPureComponent2,
-    Utils as CoreUtils,
-    DISPLAYNAME_PREFIX,
+    AbstractPureComponent2, DISPLAYNAME_PREFIX,
     Icon,
     IconName,
     Popover,
     Position,
-    Props,
-} from "@blueprintjs/core";
+    Props, Utils as CoreUtils
+} from "@mach9/blueprint-core";
 
 import * as Classes from "../common/classes";
 import { columnInteractionBarContextTypes, ColumnInteractionBarContextTypes } from "../common/context";

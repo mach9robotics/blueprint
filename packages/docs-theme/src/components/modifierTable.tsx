@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Classes, HTMLTable } from "@blueprintjs/core";
+import { Classes, HTMLTable } from "@mach9/blueprint-core";
 
 export interface IModifierTableProps {
     /** Table body contents. */

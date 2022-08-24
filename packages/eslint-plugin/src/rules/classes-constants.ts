@@ -80,7 +80,7 @@ function create(
                 // Add import for the Classes enum
                 const program = getProgram(node);
                 if (program !== undefined) {
-                    fixes.addFixes(addImportToFile(program, ["Classes"], "@blueprintjs/core")(fixer));
+                    fixes.addFixes(addImportToFile(program, ["Classes"], "@mach9/blueprint-core")(fixer));
                 }
 
                 return fixes.getFixes();

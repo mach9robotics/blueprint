@@ -19,7 +19,7 @@ import { getDefaultMaxDate, getDefaultMinDate } from "./datePickerCore";
 
 /**
  * DatePicker-related utility functions which may be useful outside this package to
- * build date/time components. Initially created for use in @blueprintjs/datetime2.
+ * build date/time components. Initially created for use in @mach9/blueprint-datetime2.
  */
 export const DatePickerUtils = {
     getDefaultMaxDate,

@@ -17,14 +17,13 @@ import classNames from "classnames";
 import * as React from "react";
 
 import {
-    Utils as CoreUtils,
     DISPLAYNAME_PREFIX,
     EditableText,
     EditableTextProps,
     HotkeyConfig,
     HotkeysTarget2,
-    UseHotkeysReturnValue,
-} from "@blueprintjs/core";
+    UseHotkeysReturnValue, Utils as CoreUtils
+} from "@mach9/blueprint-core";
 
 import * as Classes from "../common/classes";
 import { Draggable } from "../interactions/draggable";

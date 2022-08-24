@@ -16,10 +16,10 @@
 
 import * as React from "react";
 
-import { Code, H5, Intent, MenuItem, Switch, TagProps } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
-import { Popover2 } from "@blueprintjs/popover2";
-import { ItemRenderer, MultiSelect2 } from "@blueprintjs/select";
+import { Code, H5, Intent, MenuItem, Switch, TagProps } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
+import { Popover2 } from "@mach9/blueprint-popover2";
+import { ItemRenderer, MultiSelect2 } from "@mach9/blueprint-select";
 
 import {
     areFilmsEqual,

@@ -14,12 +14,12 @@
  */
 
 module.exports = externalize({
-    "@blueprintjs/core": ["Blueprint", "Core"],
-    "@blueprintjs/icons": ["Blueprint", "Icons"],
-    "@blueprintjs/datetime": ["Blueprint", "Datetime"],
-    "@blueprintjs/select": ["Blueprint", "Select"],
-    "@blueprintjs/table": ["Blueprint", "Table"],
-    "@blueprintjs/timezone": ["Blueprint", "Timezone"],
+    "@mach9/blueprint-core": ["Blueprint", "Core"],
+    "@mach9/blueprint-icons": ["Blueprint", "Icons"],
+    "@mach9/blueprint-datetime": ["Blueprint", "Datetime"],
+    "@mach9/blueprint-select": ["Blueprint", "Select"],
+    "@mach9/blueprint-table": ["Blueprint", "Table"],
+    "@mach9/blueprint-timezone": ["Blueprint", "Timezone"],
     classnames: "classNames",
     dom4: "window",
     moment: "moment",

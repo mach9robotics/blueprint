@@ -18,7 +18,7 @@
 
 import * as React from "react";
 
-import { Classes, Intent, Menu, MenuDivider, MenuItem } from "@blueprintjs/core";
+import { Classes, Intent, Menu, MenuDivider, MenuItem } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 
@@ -30,7 +30,7 @@ export class MenuExample extends React.PureComponent {
                     <Menu className={Classes.ELEVATION_1}>
                         {Object.values(Intent).map(intent => (
                             <div key={`${intent}-menu-item`}>
-                                {/* eslint-disable-next-line @blueprintjs/no-deprecated-components */}
+                                {/* eslint-disable-next-line @mach9/blueprint-no-deprecated-components */}
                                 <MenuItem intent={intent} icon="applications" text="Item" label="⌘M" />
                                 {intent !== "danger" && <MenuDivider />}
                             </div>
@@ -41,7 +41,7 @@ export class MenuExample extends React.PureComponent {
                     <Menu className={Classes.ELEVATION_1}>
                         {Object.values(Intent).map(intent => (
                             <div key={`${intent}-menu-item`}>
-                                {/* eslint-disable-next-line @blueprintjs/no-deprecated-components */}
+                                {/* eslint-disable-next-line @mach9/blueprint-no-deprecated-components */}
                                 <MenuItem disabled={true} intent={intent} icon="applications" text="Item" label="⌘M" />
                                 {intent !== "danger" && <MenuDivider />}
                             </div>

@@ -16,7 +16,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { FocusStyleManager } from "@blueprintjs/core";
+import { FocusStyleManager } from "@mach9/blueprint-core";
 
 import { Examples } from "./examples/Examples";
 

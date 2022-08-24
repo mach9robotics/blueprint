@@ -15,8 +15,8 @@
 
 import * as React from "react";
 
-import { Button, Menu, MenuDivider, MenuItem } from "@blueprintjs/core";
-import { Classes, Popover2 } from "@blueprintjs/popover2";
+import { Button, Menu, MenuDivider, MenuItem } from "@mach9/blueprint-core";
+import { Classes, Popover2 } from "@mach9/blueprint-popover2";
 
 import { ExampleCard } from "./ExampleCard";
 

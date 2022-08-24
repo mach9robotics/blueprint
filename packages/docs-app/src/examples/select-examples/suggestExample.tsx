@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { H5, MenuItem, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
-import { Suggest2 } from "@blueprintjs/select";
+import { H5, MenuItem, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
+import { Suggest2 } from "@mach9/blueprint-select";
 
 import {
     areFilmsEqual,

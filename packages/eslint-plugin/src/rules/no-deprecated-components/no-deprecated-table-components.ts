@@ -15,12 +15,12 @@ export const tableComponentsMigrationMapping = {
 };
 
 /**
- * This rule is similar to "@blueprintjs/no-deprecated-components", but it only checks for usage
- * of deprecated components from @blueprintjs/table. This is useful for incremental migration to
+ * This rule is similar to "@mach9/blueprint-no-deprecated-components", but it only checks for usage
+ * of deprecated components from @mach9/blueprint-table. This is useful for incremental migration to
  * newer Blueprint APIs.
  */
 export const noDeprecatedTableComponentsRule = createNoDeprecatedComponentsRule(
     "no-deprecated-table-components",
-    ["@blueprintjs/table"],
+    ["@mach9/blueprint-table"],
     tableComponentsMigrationMapping,
 );

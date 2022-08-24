@@ -17,7 +17,7 @@
 import { ITag } from "@documentalist/client";
 import * as React from "react";
 
-import { AnchorButton, Intent } from "@blueprintjs/core";
+import { AnchorButton, Intent } from "@mach9/blueprint-core";
 
 import { ExampleProps } from "../components/example";
 

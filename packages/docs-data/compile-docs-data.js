@@ -10,7 +10,7 @@ const fs = require("fs");
 const path = require("path");
 const semver = require("semver");
 
-const { Classes } = require("@blueprintjs/core/lib/cjs/common");
+const { Classes } = require("@mach9/blueprint-core/lib/cjs/common");
 
 const docsUtils = require("./docsUtils");
 

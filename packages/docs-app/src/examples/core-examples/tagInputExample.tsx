@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Button, H5, Intent, Switch, TagInput, TagProps } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@blueprintjs/docs-theme";
+import { Button, H5, Intent, Switch, TagInput, TagProps } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@mach9/blueprint-docs-theme";
 
 import { IntentSelect } from "./common/intentSelect";
 

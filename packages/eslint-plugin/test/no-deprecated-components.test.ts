@@ -37,7 +37,7 @@ ruleTester.run("no-deprecated-components", noDeprecatedComponentsRule, {
     invalid: [
         {
             code: dedent`
-                import { CollapsibleList } from "@blueprintjs/core";
+                import { CollapsibleList } from "@mach9/blueprint-core";
 
                 return <CollapsibleList />
             `,
@@ -50,7 +50,7 @@ ruleTester.run("no-deprecated-components", noDeprecatedComponentsRule, {
         },
         {
             code: dedent`
-                import * as BP from "@blueprintjs/core";
+                import * as BP from "@mach9/blueprint-core";
 
                 return <BP.CollapsibleList />
             `,
@@ -63,7 +63,7 @@ ruleTester.run("no-deprecated-components", noDeprecatedComponentsRule, {
         },
         {
             code: dedent`
-                import { AbstractComponent } from "@blueprintjs/core";
+                import { AbstractComponent } from "@mach9/blueprint-core";
 
                 export class MyClass extends AbstractComponent {
                 }
@@ -77,7 +77,7 @@ ruleTester.run("no-deprecated-components", noDeprecatedComponentsRule, {
         },
         {
             code: dedent`
-                import * as BP from "@blueprintjs/core";
+                import * as BP from "@mach9/blueprint-core";
 
                 export class MyClass extends BP.AbstractComponent {
                 }
@@ -96,7 +96,7 @@ ruleTester.run("no-deprecated-components", noDeprecatedComponentsRule, {
         },
         {
             code: dedent`
-                import { TimezonePicker } from "@blueprintjs/timezone";
+                import { TimezonePicker } from "@mach9/blueprint-timezone";
 
                 return <TimezonePicker />;
             `,
@@ -111,28 +111,28 @@ ruleTester.run("no-deprecated-components", noDeprecatedComponentsRule, {
     valid: [
         {
             code: dedent`
-                import { Button } from "@blueprintjs/core";
+                import { Button } from "@mach9/blueprint-core";
 
                 return <Button />
             `,
         },
         {
             code: dedent`
-                import { OverflowList } from "@blueprintjs/core";
+                import { OverflowList } from "@mach9/blueprint-core";
 
                 return <OverflowList />
             `,
         },
         {
             code: dedent`
-                import { OverflowList } from "@blueprintjs/core";
+                import { OverflowList } from "@mach9/blueprint-core";
 
                 export class MyList extends OverflowList {}
             `,
         },
         {
             code: dedent`
-                import * as BP from "@blueprintjs/core";
+                import * as BP from "@mach9/blueprint-core";
 
                 return <BP.Button />
             `,

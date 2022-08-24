@@ -7,7 +7,7 @@ Deprecated: use [PanelStack2](#core/components/panel-stack2)
 
 </h4>
 
-This API is **deprecated since @blueprintjs/core v3.40.0** in favor of the new
+This API is **deprecated since @mach9/blueprint-core v3.40.0** in favor of the new
 PanelStack2 component. You should migrate to the new API which will become the
 standard in a future major version of Blueprint.
 
@@ -42,7 +42,7 @@ the stack and is unmounted when it is closed or when a panel opens above it.
 close the current panel or open a new one on top of it.
 
 ```tsx
-import { Button, IPanelProps, PanelStack } from "@blueprintjs/core";
+import { Button, IPanelProps, PanelStack } from "@mach9/blueprint-core";
 
 class MyPanel extends React.Component<IPanelProps> {
     public render() {

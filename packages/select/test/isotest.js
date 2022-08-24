@@ -14,9 +14,9 @@
  */
 
 // @ts-check
-require("@blueprintjs/test-commons/bootstrap");
+require("@mach9/blueprint-test-commons/bootstrap");
 
-const { generateIsomorphicTests } = require("@blueprintjs/test-commons");
+const { generateIsomorphicTests } = require("@mach9/blueprint-test-commons");
 
 const Select = require("../lib/cjs");
 

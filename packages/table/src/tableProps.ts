@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type { Props } from "@blueprintjs/core";
+import type { Props } from "@mach9/blueprint-core";
 
 import type { CellRenderer } from "./cell/cell";
 import type { IColumnProps } from "./column";

@@ -1,5 +1,5 @@
 {
-    "name": "@blueprintjs/table",
+    "name": "@mach9/blueprint-table",
     "version": "4.6.1",
     "description": "Scalable interactive table component",
     "main": "lib/cjs/index.js",
@@ -35,8 +35,8 @@
         "verify": "npm-run-all compile -p dist test lint"
     },
     "dependencies": {
-        "@blueprintjs/core": "^4.9.0",
-        "@blueprintjs/popover2": "^1.6.0",
+        "@mach9/blueprint-core": "^4.9.0",
+        "@mach9/blueprint-popover2": "^1.6.0",
         "classnames": "^2.2",
         "prop-types": "^15.7.2",
         "react-innertext": "^1.1.5",
@@ -47,9 +47,9 @@
         "react-dom": "^16.8 || 17 || 18"
     },
     "devDependencies": {
-        "@blueprintjs/colors": "^4.1.5",
-        "@blueprintjs/node-build-scripts": "^5.1.0",
-        "@blueprintjs/test-commons": "^1.0.10",
+        "@mach9/blueprint-colors": "^4.1.5",
+        "@mach9/blueprint-node-build-scripts": "^5.1.0",
+        "@mach9/blueprint-test-commons": "^1.0.10",
         "enzyme": "^3.11.0",
         "karma": "^6.3.17",
         "mocha": "^9.2.2",

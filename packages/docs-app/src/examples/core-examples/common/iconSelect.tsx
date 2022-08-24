@@ -17,9 +17,9 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Alignment, Button, Classes, MenuItem } from "@blueprintjs/core";
-import { IconName } from "@blueprintjs/icons";
-import { ItemRenderer, Select2 } from "@blueprintjs/select";
+import { Alignment, Button, Classes, MenuItem } from "@mach9/blueprint-core";
+import { IconName } from "@mach9/blueprint-icons";
+import { ItemRenderer, Select2 } from "@mach9/blueprint-select";
 
 import { getIconNames, IconNameOrNone, NONE } from "./iconNames";
 

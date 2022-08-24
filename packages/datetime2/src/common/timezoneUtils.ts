@@ -17,7 +17,7 @@
 import { formatInTimeZone, utcToZonedTime, zonedTimeToUtc } from "date-fns-tz";
 import { isEmpty } from "lodash-es";
 
-import { TimePrecision } from "@blueprintjs/datetime";
+import { TimePrecision } from "@mach9/blueprint-datetime";
 
 import { getCurrentTimezone } from "./getTimezone";
 

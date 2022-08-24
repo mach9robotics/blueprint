@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Intent, TagInput, TagProps } from "@blueprintjs/core";
+import { Intent, TagInput, TagProps } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

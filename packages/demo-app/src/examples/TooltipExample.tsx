@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Icon } from "@blueprintjs/core";
-import { Classes, Tooltip2 } from "@blueprintjs/popover2";
+import { Icon } from "@mach9/blueprint-core";
+import { Classes, Tooltip2 } from "@mach9/blueprint-popover2";
 
 import { ExampleCard } from "./ExampleCard";
 

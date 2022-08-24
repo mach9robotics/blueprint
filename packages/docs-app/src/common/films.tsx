@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { MenuItem, MenuItemProps } from "@blueprintjs/core";
-import { ItemPredicate, ItemRenderer, ItemRendererProps } from "@blueprintjs/select";
+import { MenuItem, MenuItemProps } from "@mach9/blueprint-core";
+import { ItemPredicate, ItemRenderer, ItemRendererProps } from "@mach9/blueprint-select";
 
 export interface IFilm {
     /** Title of film. */

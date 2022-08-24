@@ -26,16 +26,16 @@ import {
     mergeRefs,
     Props,
     Tag,
-    Utils,
-} from "@blueprintjs/core";
+    Utils
+} from "@mach9/blueprint-core";
 import {
     DateFormatProps,
     DatePicker,
     DatePickerBaseProps,
     DatePickerShortcut,
-    DatePickerUtils,
-} from "@blueprintjs/datetime";
-import { Popover2, Popover2Props, Popover2TargetProps } from "@blueprintjs/popover2";
+    DatePickerUtils
+} from "@mach9/blueprint-datetime";
+import { Popover2, Popover2Props, Popover2TargetProps } from "@mach9/blueprint-popover2";
 
 import * as Classes from "../../common/classes";
 import { isDateValid, isDayInRange } from "../../common/dateUtils";
@@ -44,7 +44,7 @@ import { getTimezoneName } from "../../common/timezoneNameUtils";
 import {
     convertLocalDateToTimezoneTime,
     getDateObjectFromIsoString,
-    getIsoEquivalentWithUpdatedTimezone,
+    getIsoEquivalentWithUpdatedTimezone
 } from "../../common/timezoneUtils";
 import { TimezoneSelect } from "../timezone-select/timezoneSelect";
 

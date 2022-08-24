@@ -16,10 +16,10 @@
 
 import * as React from "react";
 
-import { H5, Switch } from "@blueprintjs/core";
-import { DateFormatProps, DateRange, TimePrecision } from "@blueprintjs/datetime";
-import { DateRangeInput2 } from "@blueprintjs/datetime2";
-import { Example, ExampleProps, handleBooleanChange } from "@blueprintjs/docs-theme";
+import { H5, Switch } from "@mach9/blueprint-core";
+import { DateFormatProps, DateRange, TimePrecision } from "@mach9/blueprint-datetime";
+import { DateRangeInput2 } from "@mach9/blueprint-datetime2";
+import { Example, ExampleProps, handleBooleanChange } from "@mach9/blueprint-docs-theme";
 
 import { DateFnsDateRange } from "./dateFnsDate";
 import { DATE_FNS_FORMATS, DateFnsFormatSelector } from "./dateFnsFormatSelector";

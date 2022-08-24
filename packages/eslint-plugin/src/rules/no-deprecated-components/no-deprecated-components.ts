@@ -18,11 +18,11 @@ import { timezoneComponentsMigrationMapping } from "./no-deprecated-timezone-com
 export const noDeprecatedComponentsRule = createNoDeprecatedComponentsRule(
     "no-deprecated-components",
     [
-        "@blueprintjs/core",
-        "@blueprintjs/datetime",
-        "@blueprintjs/select",
-        "@blueprintjs/table",
-        "@blueprintjs/timezone",
+        "@mach9/blueprint-core",
+        "@mach9/blueprint-datetime",
+        "@mach9/blueprint-select",
+        "@mach9/blueprint-table",
+        "@mach9/blueprint-timezone",
     ],
     {
         ...coreComponentsMigrationMapping,

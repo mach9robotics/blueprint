@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { Button, Code, H5, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
-import { Popover2, Popover2Props } from "@blueprintjs/popover2";
+import { Button, Code, H5, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
+import { Popover2, Popover2Props } from "@mach9/blueprint-popover2";
 
 const POPOVER2_PROPS: Partial<Popover2Props> = {
     autoFocus: false,

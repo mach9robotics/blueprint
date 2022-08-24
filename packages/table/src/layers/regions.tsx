@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Utils as CoreUtils, Props } from "@blueprintjs/core";
+import { Props, Utils as CoreUtils } from "@mach9/blueprint-core";
 
 import * as Classes from "../common/classes";
 import { QuadrantType } from "../quadrants/tableQuadrant";

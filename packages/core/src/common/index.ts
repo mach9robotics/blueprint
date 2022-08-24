@@ -26,12 +26,12 @@ export * from "./intent";
 export * from "./position";
 export * from "./props";
 export * from "./refs";
+export { Classes, Keys, Utils, Colors };
 
-import { Colors } from "@blueprintjs/colors";
+import { Colors } from "@mach9/blueprint-colors";
 
 import * as Classes from "./classes";
 import * as Keys from "./keys";
 import * as Utils from "./utils";
 
-export { Classes, Keys, Utils, Colors };
 // NOTE: Errors is not exported in public API

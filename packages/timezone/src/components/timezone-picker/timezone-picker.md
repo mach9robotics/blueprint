@@ -7,7 +7,7 @@ Deprecated: use [TimezoneSelect](#datetime2/timezone-select)
 
 </h4>
 
-This component is **deprecated since @blueprintjs/timezone v4.3.0** in favor of the new
+This component is **deprecated since @mach9/blueprint-timezone v4.3.0** in favor of the new
 TimezoneSelect component, which uses Popover2 instead of Popover under the hood, and
 does not have a dependency on moment-timezone. You should migrate to the new API which
 will become the standard in Blueprint v5.
@@ -59,7 +59,7 @@ for more information and browser compatibility.
 </div>
 
 ```tsx
-import { TimezonePicker } from "@blueprintjs/timezone";
+import { TimezonePicker } from "@mach9/blueprint-timezone";
 
 export class TimezoneExample extends React.PureComponent<{}, { timezone: string; }> {
     public state = { timezone: "" };

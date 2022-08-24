@@ -19,11 +19,11 @@
  * All changes & bugfixes should be made to RowHeaderCell2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import * as React from "react";
 
-import { AbstractPureComponent2, Props } from "@blueprintjs/core";
+import { AbstractPureComponent2, Props } from "@mach9/blueprint-core";
 
 import * as Classes from "../common/classes";
 import { LoadableContent } from "../common/loadableContent";

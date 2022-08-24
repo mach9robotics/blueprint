@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { BreadcrumbProps, Breadcrumbs2 } from "@blueprintjs/popover2";
+import { BreadcrumbProps, Breadcrumbs2 } from "@mach9/blueprint-popover2";
 
 import { ExampleCard } from "./ExampleCard";
 

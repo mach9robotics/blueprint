@@ -9,7 +9,7 @@ reference: datetime2
     <p>This package is currently in the v0.x version range, which means its API is unstable.</p>
 </div>
 
-The [__@blueprintjs/datetime2__ package](https://www.npmjs.com/package/@blueprintjs/datetime2)
+The [__@mach9/blueprint-datetime2__ package](https://www.npmjs.com/package/@mach9/blueprint-datetime2)
 provides components for interacting with dates, times, and timezones:
 
 - [DateInput2](#datetime2/date-input2) renders a date input with
@@ -21,7 +21,7 @@ provides components for interacting with dates, times, and timezones:
 ### Motivation
 
 These are modern "V2" variants of components available in the
-[__@blueprintjs/datetime__](#datetime) and [__@blueprintjs/timezone__](#timezone) packages.
+[__@mach9/blueprint-datetime__](#datetime) and [__@mach9/blueprint-timezone__](#timezone) packages.
 They will become the standard date & time components in a future major version of Blueprint
 in 2022. You are encouraged to try out the new APIs, provide feedback, and set yourself up
 for forward compatibility in the Blueprint ecosystem.
@@ -42,13 +42,13 @@ Compared to their "V1" counterparts, these components:
 Make sure to review the [getting started docs for installation info](#blueprint/getting-started).
 
 ```sh
-npm install --save @blueprintjs/datetime2
+npm install --save @mach9/blueprint-datetime2
 ```
 
 Import the package stylesheet (for example, in Sass):
 
 ```scss
-@import "~@blueprintjs/datetime2/lib/css/blueprint-datetime2.css";
+@import "~@mach9/blueprint-datetime2/lib/css/blueprint-datetime2.css";
 ```
 
 <div class="@ns-callout @ns-intent-warning @ns-icon-warning-sign">
@@ -58,9 +58,9 @@ This library relies on some components from other Blueprint packages, so you wil
 packages' CSS files as well (if you are not doing this already):
 
 ```scss
-@import "~@blueprintjs/datetime/lib/css/blueprint-datetime.css";
-@import "~@blueprintjs/popover2/lib/css/blueprint-popover2.css";
-@import "~@blueprintjs/select/lib/css/blueprint-select.css";
+@import "~@mach9/blueprint-datetime/lib/css/blueprint-datetime.css";
+@import "~@mach9/blueprint-popover2/lib/css/blueprint-popover2.css";
+@import "~@mach9/blueprint-select/lib/css/blueprint-select.css";
 ```
 </div>
 

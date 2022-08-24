@@ -19,7 +19,7 @@
  * All changes & bugfixes should be made to TimezoneSelect instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
@@ -34,8 +34,8 @@ import {
     IPopoverProps,
     MenuItem,
     Props,
-} from "@blueprintjs/core";
-import { ItemListPredicate, ItemRenderer, Select } from "@blueprintjs/select";
+} from "@mach9/blueprint-core";
+import { ItemListPredicate, ItemRenderer, Select } from "@mach9/blueprint-select";
 
 import * as Classes from "../../common/classes";
 import * as Errors from "../../common/errors";
@@ -127,7 +127,7 @@ export interface ITimezonePickerState {
 // eslint-disable-next-line deprecation/deprecation
 const TypedSelect = Select.ofType<TimezoneItem>();
 
-/** @deprecated use { TimezoneSelect } from "@blueprintjs/datetime2" */
+/** @deprecated use { TimezoneSelect } from "@mach9/blueprint-datetime2" */
 export class TimezonePicker extends AbstractPureComponent2<TimezonePickerProps, ITimezonePickerState> {
     public static displayName = `${DISPLAYNAME_PREFIX}.TimezonePicker`;
 

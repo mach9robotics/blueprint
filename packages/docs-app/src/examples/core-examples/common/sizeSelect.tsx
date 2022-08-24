@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Button, ButtonGroup, Label } from "@blueprintjs/core";
+import { Button, ButtonGroup, Label } from "@mach9/blueprint-core";
 
 export type Size = "small" | "regular" | "large";
 

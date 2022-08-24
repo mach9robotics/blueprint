@@ -19,8 +19,8 @@ import { mount, ReactWrapper, shallow } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { Menu } from "@blueprintjs/core";
-import { IQueryListProps } from "@blueprintjs/select";
+import { Menu } from "@mach9/blueprint-core";
+import { IQueryListProps } from "@mach9/blueprint-select";
 
 import { IFilm, renderFilm, TOP_100_FILMS } from "../../docs-app/src/common/films";
 import {
@@ -29,7 +29,7 @@ import {
     ItemListPredicate,
     ItemListRenderer,
     ItemPredicate,
-    QueryList,
+    QueryList
 } from "../src";
 
 // this is an awkward import across the monorepo, but we'd rather not introduce a cyclical dependency or create another package

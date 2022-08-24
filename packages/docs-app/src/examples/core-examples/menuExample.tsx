@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import * as React from "react";
 
-import { Classes, Icon, Menu, MenuDivider, MenuItem } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
+import { Classes, Icon, Menu, MenuDivider, MenuItem } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
 
 export class MenuExample extends React.PureComponent<ExampleProps> {
     public render() {

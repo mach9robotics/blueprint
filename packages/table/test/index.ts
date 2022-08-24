@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-import "@blueprintjs/test-commons/bootstrap";
+import "@mach9/blueprint-test-commons/bootstrap";
 
 import "./batcherTests.tsx";
 import "./cellTests.tsx";
 import "./clipboardTests.ts";
-import "./columnHeaderCellTests.tsx";
 import "./columnHeaderCell2Tests.tsx";
+import "./columnHeaderCellTests.tsx";
 import "./columnTests.tsx";
 import "./common/internal/";
 import "./editableCell2Tests.tsx";
@@ -50,3 +50,4 @@ import "./tableBody2Tests.tsx";
 import "./tableBodyTests.tsx";
 import "./tableTests.tsx";
 import "./utilsTests.ts";
+

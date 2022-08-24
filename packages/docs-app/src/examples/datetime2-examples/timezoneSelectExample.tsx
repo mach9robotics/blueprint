@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { H5, Position, Switch } from "@blueprintjs/core";
-import { TimezoneSelect } from "@blueprintjs/datetime2";
-import { Example, ExampleProps, handleBooleanChange } from "@blueprintjs/docs-theme";
+import { H5, Position, Switch } from "@mach9/blueprint-core";
+import { TimezoneSelect } from "@mach9/blueprint-datetime2";
+import { Example, ExampleProps, handleBooleanChange } from "@mach9/blueprint-docs-theme";
 
 export interface TimezoneSelectExampleState {
     disabled: boolean;

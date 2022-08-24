@@ -19,9 +19,9 @@ const stylelint = require("stylelint");
 
 const config = {
     customSyntax: "postcss-scss",
-    plugins: ["@blueprintjs/stylelint-plugin"],
+    plugins: ["@mach9/blueprint-stylelint-plugin"],
     rules: {
-        "@blueprintjs/no-color-literal": true,
+        "@mach9/blueprint-no-color-literal": true,
     },
 };
 

@@ -19,12 +19,12 @@
  * All changes & bugfixes should be made to JSONFormat2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
 
-import { DISPLAYNAME_PREFIX } from "@blueprintjs/core";
+import { DISPLAYNAME_PREFIX } from "@mach9/blueprint-core";
 
 import * as Classes from "../../common/classes";
 import { ITruncatedFormatProps, TruncatedFormat, TruncatedPopoverMode } from "./truncatedFormat";

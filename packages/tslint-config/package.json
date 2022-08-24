@@ -1,5 +1,5 @@
 {
-    "name": "@blueprintjs/tslint-config",
+    "name": "@mach9/blueprint-tslint-config",
     "version": "3.3.1",
     "description": "TSLint configuration for @blueprintjs packages",
     "scripts": {

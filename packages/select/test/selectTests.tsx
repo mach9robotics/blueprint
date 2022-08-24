@@ -19,14 +19,14 @@
  * All changes & bugfixes should be made to Select2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import { assert } from "chai";
 import { mount } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { Classes, InputGroup, Keys, Popover } from "@blueprintjs/core";
+import { Classes, InputGroup, Keys, Popover } from "@mach9/blueprint-core";
 
 import { IFilm, renderFilm, TOP_100_FILMS } from "../../docs-app/src/common/films";
 import { ISelectProps, ISelectState, ItemRendererProps, Select } from "../src";

@@ -12,12 +12,12 @@ export const datetimeComponentsMigrationMapping = {
 };
 
 /**
- * This rule is similar to "@blueprintjs/no-deprecated-components", but it only checks for usage
- * of deprecated components from @blueprintjs/datetime. This is useful for incremental migration to
+ * This rule is similar to "@mach9/blueprint-no-deprecated-components", but it only checks for usage
+ * of deprecated components from @mach9/blueprint-datetime. This is useful for incremental migration to
  * newer Blueprint APIs.
  */
 export const noDeprecatedDatetimeComponentsRule = createNoDeprecatedComponentsRule(
     "no-deprecated-datetime-components",
-    ["@blueprintjs/datetime"],
+    ["@mach9/blueprint-datetime"],
     datetimeComponentsMigrationMapping,
 );

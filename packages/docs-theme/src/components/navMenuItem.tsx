@@ -18,7 +18,7 @@ import { IHeadingNode, IPageNode } from "@documentalist/client";
 import classNames from "classnames";
 import * as React from "react";
 
-import { Classes } from "@blueprintjs/core";
+import { Classes } from "@mach9/blueprint-core";
 
 // eslint-disable-next-line deprecation/deprecation
 export type NavMenuItemProps = INavMenuItemProps;

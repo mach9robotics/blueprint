@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Alignment, Button, ButtonGroup } from "@blueprintjs/core";
+import { Alignment, Button, ButtonGroup } from "@mach9/blueprint-core";
 
 export interface IAlignSelectProps {
     align: Alignment | undefined;

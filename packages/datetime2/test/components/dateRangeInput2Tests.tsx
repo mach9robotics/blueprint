@@ -29,10 +29,10 @@ import {
     InputGroupProps2,
     Keys,
     Position,
-} from "@blueprintjs/core";
-import { DateRangePicker, Classes as DatetimeClasses, Months, TimePrecision } from "@blueprintjs/datetime";
-import { Popover2, Classes as Popover2Classes, Popover2Props } from "@blueprintjs/popover2";
-import { expectPropValidationError } from "@blueprintjs/test-commons";
+} from "@mach9/blueprint-core";
+import { DateRangePicker, Classes as DatetimeClasses, Months, TimePrecision } from "@mach9/blueprint-datetime";
+import { Popover2, Classes as Popover2Classes, Popover2Props } from "@mach9/blueprint-popover2";
+import { expectPropValidationError } from "@mach9/blueprint-test-commons";
 
 import { DateRange, DateRangeInput2 } from "../../src";
 import { DATE_FORMAT, DATETIME_FORMAT } from "../common/dateFormat";

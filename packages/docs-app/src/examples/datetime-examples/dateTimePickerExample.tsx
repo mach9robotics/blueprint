@@ -19,13 +19,13 @@
  * All changes & bugfixes should be made to DatePicker instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import * as React from "react";
 
-import { Classes } from "@blueprintjs/core";
-import { DateTimePicker } from "@blueprintjs/datetime";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
+import { Classes } from "@mach9/blueprint-core";
+import { DateTimePicker } from "@mach9/blueprint-datetime";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
 
 import { MomentDate } from "./common/momentDate";
 

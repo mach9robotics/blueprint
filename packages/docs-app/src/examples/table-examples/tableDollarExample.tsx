@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { Classes } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
-import { Cell, Column, ColumnHeaderCell2, Table2 } from "@blueprintjs/table";
+import { Classes } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
+import { Cell, Column, ColumnHeaderCell2, Table2 } from "@mach9/blueprint-table";
 
 // this will obviously get outdated, it's valid only as of August 2021
 const USD_TO_EURO_CONVERSION = 0.85;

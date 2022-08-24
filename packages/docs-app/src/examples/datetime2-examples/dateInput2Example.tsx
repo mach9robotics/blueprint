@@ -17,10 +17,10 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Classes, H5, Icon, Switch, Tag } from "@blueprintjs/core";
-import { DateFormatProps, TimePrecision } from "@blueprintjs/datetime";
-import { DateInput2 } from "@blueprintjs/datetime2";
-import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@blueprintjs/docs-theme";
+import { Classes, H5, Icon, Switch, Tag } from "@mach9/blueprint-core";
+import { DateFormatProps, TimePrecision } from "@mach9/blueprint-datetime";
+import { DateInput2 } from "@mach9/blueprint-datetime2";
+import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@mach9/blueprint-docs-theme";
 
 import { PropCodeTooltip } from "../../common/propCodeTooltip";
 import { PrecisionSelect } from "../datetime-examples/common/precisionSelect";

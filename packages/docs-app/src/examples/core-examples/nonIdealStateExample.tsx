@@ -25,9 +25,9 @@ import {
     NonIdealStateIconSize,
     Spinner,
     Switch,
-} from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange } from "@blueprintjs/docs-theme";
-import { IconName } from "@blueprintjs/icons";
+} from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange } from "@mach9/blueprint-docs-theme";
+import { IconName } from "@mach9/blueprint-icons";
 
 import { IconSelect } from "./common/iconSelect";
 import { Layout, LayoutSelect } from "./common/layoutSelect";

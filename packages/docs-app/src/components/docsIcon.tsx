@@ -18,8 +18,8 @@ import classNames from "classnames";
 import download from "downloadjs";
 import * as React from "react";
 
-import { Classes, Icon, IconName, IconSize, Menu, MenuItem } from "@blueprintjs/core";
-import { ContextMenu2 } from "@blueprintjs/popover2";
+import { Classes, Icon, IconName, IconSize, Menu, MenuItem } from "@mach9/blueprint-core";
+import { ContextMenu2 } from "@mach9/blueprint-popover2";
 
 import { ClickToCopy } from "./clickToCopy";
 

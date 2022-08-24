@@ -32,8 +32,8 @@ an [OverflowList](#core/components/overflow-list) to automatically collapse
 breadcrumbs that do not fit in the available space.
 
 ```tsx
-import { BreadcrumbProps, Icon } from "@blueprintjs/core";
-import { Breadcrumbs2 } from "@blueprintjs/popover2";
+import { BreadcrumbProps, Icon } from "@mach9/blueprint-core";
+import { Breadcrumbs2 } from "@mach9/blueprint-popover2";
 import * as React from "react";
 
 const BREADCRUMBS: BreadcrumbProps[] = [

@@ -26,13 +26,13 @@ This repository contains multiple projects in the `packages/` directory that fal
 
 These are the component libraries we publish to NPM.
 
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/core.svg?label=@blueprintjs/core)](https://www.npmjs.com/package/@blueprintjs/core) &ndash; Core styles & components.
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/datetime.svg?label=@blueprintjs/datetime)](https://www.npmjs.com/package/@blueprintjs/datetime) &ndash; Components for interacting with dates and times.
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/icons.svg?label=@blueprintjs/icons)](https://www.npmjs.com/package/@blueprintjs/icons) &ndash; Components for generating and displaying icons.
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/popover2.svg?label=@blueprintjs/popover2)](https://www.npmjs.com/package/@blueprintjs/popover2) &ndash; Popover2 and Tooltip2 components.
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/select.svg?label=@blueprintjs/select)](https://www.npmjs.com/package/@blueprintjs/select) &ndash; Components for selecting items from a list.
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/table.svg?label=@blueprintjs/table)](https://www.npmjs.com/package/@blueprintjs/table) &ndash; Scalable interactive table component.
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/timezone.svg?label=@blueprintjs/timezone)](https://www.npmjs.com/package/@blueprintjs/timezone) &ndash; Components for picking timezones.
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-core.svg?label=@mach9/blueprint-core)](https://www.npmjs.com/package/@mach9/blueprint-core) &ndash; Core styles & components.
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-datetime.svg?label=@mach9/blueprint-datetime)](https://www.npmjs.com/package/@mach9/blueprint-datetime) &ndash; Components for interacting with dates and times.
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-icons.svg?label=@mach9/blueprint-icons)](https://www.npmjs.com/package/@mach9/blueprint-icons) &ndash; Components for generating and displaying icons.
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-popover2.svg?label=@mach9/blueprint-popover2)](https://www.npmjs.com/package/@mach9/blueprint-popover2) &ndash; Popover2 and Tooltip2 components.
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-select.svg?label=@mach9/blueprint-select)](https://www.npmjs.com/package/@mach9/blueprint-select) &ndash; Components for selecting items from a list.
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-table.svg?label=@mach9/blueprint-table)](https://www.npmjs.com/package/@mach9/blueprint-table) &ndash; Scalable interactive table component.
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-timezone.svg?label=@mach9/blueprint-timezone)](https://www.npmjs.com/package/@mach9/blueprint-timezone) &ndash; Components for picking timezones.
 
 ### Applications
 
@@ -49,15 +49,15 @@ These are used as development playground environments:
 
 These packages define development dependencies and contain build configuration. They adhere to the standard NPM package layout, which allows us to keep clear API boundaries for build configuration and isolate groups of `devDependencies`. They are published to NPM in order to allow other Blueprint-related projects to use this infrastructure outside this monorepo.
 
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/docs-theme.svg?label=@blueprintjs/docs-theme)](https://www.npmjs.com/package/@blueprintjs/docs-theme) &ndash; Documentation theme for [Documentalist](https://github.com/palantir/documentalist) data.
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/eslint-config.svg?label=@blueprintjs/eslint-config)](https://www.npmjs.com/package/@blueprintjs/eslint-config) &ndash; ESLint configuration used in this repo and recommended for Blueprint-related projects
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/eslint-plugin.svg?label=@blueprintjs/eslint-plugin)](https://www.npmjs.com/package/@blueprintjs/eslint-plugin) &ndash; implementations for custom ESLint rules which enforce best practices for Blueprint usage
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/karma-build-scripts.svg?label=@blueprintjs/karma-build-scripts)](https://www.npmjs.com/package/@blueprintjs/karma-build-scripts)
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/node-build-scripts.svg?label=@blueprintjs/node-build-scripts)](https://www.npmjs.com/package/@blueprintjs/node-build-scripts) &ndash; various utility scripts for linting, working with CSS variables, and building icons
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/stylelint-plugin.svg?label=@blueprintjs/stylelint-plugin)](https://www.npmjs.com/package/@blueprintjs/stylelint-plugin) &ndash; implementations for custom stylelint rules which enforce best practices for Blueprint usage
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/test-commons.svg?label=@blueprintjs/test-commons)](https://www.npmjs.com/package/@blueprintjs/test-commons) &ndash; various utility functions used in Blueprint test suites
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/tslint-config.svg?label=@blueprintjs/tslint-config)](https://www.npmjs.com/package/@blueprintjs/tslint-config) &ndash; TSLint configuration used in this repo and recommended for Blueprint-related projects (should be installed by `@blueprintjs/eslint-config`, not directly)
--   [![npm](https://img.shields.io/npm/v/@blueprintjs/webpack-build-scripts.svg?label=@blueprintjs/webpack-build-scripts)](https://www.npmjs.com/package/@blueprintjs/webpack-build-scripts)
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-docs-theme.svg?label=@mach9/blueprint-docs-theme)](https://www.npmjs.com/package/@mach9/blueprint-docs-theme) &ndash; Documentation theme for [Documentalist](https://github.com/palantir/documentalist) data.
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-eslint-config.svg?label=@mach9/blueprint-eslint-config)](https://www.npmjs.com/package/@mach9/blueprint-eslint-config) &ndash; ESLint configuration used in this repo and recommended for Blueprint-related projects
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-eslint-plugin.svg?label=@mach9/blueprint-eslint-plugin)](https://www.npmjs.com/package/@mach9/blueprint-eslint-plugin) &ndash; implementations for custom ESLint rules which enforce best practices for Blueprint usage
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-karma-build-scripts.svg?label=@mach9/blueprint-karma-build-scripts)](https://www.npmjs.com/package/@mach9/blueprint-karma-build-scripts)
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-node-build-scripts.svg?label=@mach9/blueprint-node-build-scripts)](https://www.npmjs.com/package/@mach9/blueprint-node-build-scripts) &ndash; various utility scripts for linting, working with CSS variables, and building icons
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-stylelint-plugin.svg?label=@mach9/blueprint-stylelint-plugin)](https://www.npmjs.com/package/@mach9/blueprint-stylelint-plugin) &ndash; implementations for custom stylelint rules which enforce best practices for Blueprint usage
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-test-commons.svg?label=@mach9/blueprint-test-commons)](https://www.npmjs.com/package/@mach9/blueprint-test-commons) &ndash; various utility functions used in Blueprint test suites
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-tslint-config.svg?label=@mach9/blueprint-tslint-config)](https://www.npmjs.com/package/@mach9/blueprint-tslint-config) &ndash; TSLint configuration used in this repo and recommended for Blueprint-related projects (should be installed by `@mach9/blueprint-eslint-config`, not directly)
+-   [![npm](https://img.shields.io/npm/v/@mach9/blueprint-webpack-build-scripts.svg?label=@mach9/blueprint-webpack-build-scripts)](https://www.npmjs.com/package/@mach9/blueprint-webpack-build-scripts)
 
 ## Contributing
 

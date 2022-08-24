@@ -19,7 +19,7 @@
  * All changes & bugfixes should be made to Breadcrumbs2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, max-classes-per-file, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, max-classes-per-file, @mach9/blueprint-no-deprecated-components */
 
 import * as React from "react";
 
@@ -34,8 +34,8 @@ import {
     Label,
     RadioGroup,
     Slider,
-} from "@blueprintjs/core";
-import { Example, ExampleProps, handleStringChange } from "@blueprintjs/docs-theme";
+} from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleStringChange } from "@mach9/blueprint-docs-theme";
 
 export interface IBreadcrumbsExampleState {
     collapseFrom: Boundary;

@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Classes, H3, InputGroup, NonIdealState } from "@blueprintjs/core";
-import { smartSearch } from "@blueprintjs/docs-theme";
+import { Classes, H3, InputGroup, NonIdealState } from "@mach9/blueprint-core";
+import { smartSearch } from "@mach9/blueprint-docs-theme";
 
 import { DocsIcon, DocsIconProps as Icon } from "./docsIcon";
 
@@ -38,7 +38,7 @@ export class Icons extends React.PureComponent<IconsProps, IconsState> {
         iconFilter: isIconFiltered,
         iconRenderer: renderIcon,
         // tslint:disable-next-line:no-submodule-imports
-        icons: require("@blueprintjs/icons/icons.json"),
+        icons: require("@mach9/blueprint-icons/icons.json"),
     };
 
     public state: IconsState = {

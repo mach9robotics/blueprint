@@ -2,6 +2,6 @@
  * Copyright 2017 Palantir Technologies, Inc. All rights reserved.
  */
 
-import "@blueprintjs/test-commons/bootstrap";
+import "@mach9/blueprint-test-commons/bootstrap";
 
 // no tests

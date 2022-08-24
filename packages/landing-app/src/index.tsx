@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-import { FocusStyleManager } from "@blueprintjs/core";
+import { FocusStyleManager } from "@mach9/blueprint-core";
 
 import { initializeLogo } from "./logo";
 import { initializeSVGs } from "./svgs";
 
 FocusStyleManager.onlyShowFocusOnTabs();
 
-/* eslint-disable @blueprintjs/classes-constants */
+/* eslint-disable @mach9/blueprint-classes-constants */
 initializeLogo(
     document.getElementById("pt-logo") as HTMLCanvasElement,
     document.getElementById("pt-logo-background") as HTMLCanvasElement,

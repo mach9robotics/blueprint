@@ -32,8 +32,8 @@ import {
     Toaster,
     ToasterPosition,
     ToastProps,
-} from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@blueprintjs/docs-theme";
+} from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@mach9/blueprint-docs-theme";
 
 import { IBlueprintExampleData } from "../../tags/types";
 

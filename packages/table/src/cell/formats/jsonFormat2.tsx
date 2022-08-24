@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { DISPLAYNAME_PREFIX } from "@blueprintjs/core";
+import { DISPLAYNAME_PREFIX } from "@mach9/blueprint-core";
 
 import * as Classes from "../../common/classes";
 import type { JSONFormatProps } from "./jsonFormat";

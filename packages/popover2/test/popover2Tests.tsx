@@ -19,8 +19,8 @@ import { mount, ReactWrapper, shallow } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { Classes as CoreClasses, Menu, MenuItem, Overlay, Portal } from "@blueprintjs/core";
-import { dispatchMouseEvent } from "@blueprintjs/test-commons";
+import { Classes as CoreClasses, Menu, MenuItem, Overlay, Portal } from "@mach9/blueprint-core";
+import { dispatchMouseEvent } from "@mach9/blueprint-test-commons";
 
 import { Classes, Errors } from "../src";
 import { IPopover2Props, IPopover2State, Popover2, Popover2InteractionKind } from "../src/popover2";
@@ -781,7 +781,7 @@ describe("<Popover2>", () => {
             wrapper = renderPopover(
                 { defaultIsOpen: true, usePortal: false },
                 <Menu>
-                    {/* eslint-disable-next-line @blueprintjs/no-deprecated-components */}
+                    {/* eslint-disable-next-line @mach9/blueprint-no-deprecated-components */}
                     <MenuItem text="Close" />
                 </Menu>,
             );

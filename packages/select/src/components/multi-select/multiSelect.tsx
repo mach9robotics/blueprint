@@ -18,7 +18,7 @@
  * All changes & bugfixes should be made to MultiSelect2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
@@ -36,8 +36,8 @@ import {
     setRef,
     TagInput,
     TagInputAddMethod,
-    TagInputProps,
-} from "@blueprintjs/core";
+    TagInputProps
+} from "@mach9/blueprint-core";
 
 import { Classes, ListItemsProps } from "../../common";
 import { IQueryListRendererProps, QueryList } from "../query-list/queryList";
@@ -103,7 +103,7 @@ export interface IMultiSelectState {
     isOpen: boolean;
 }
 
-/** @deprecated use { MultiSelect2 } from "@blueprintjs/select" */
+/** @deprecated use { MultiSelect2 } from "@mach9/blueprint-select" */
 export class MultiSelect<T> extends AbstractPureComponent2<MultiSelectProps<T>, IMultiSelectState> {
     public static displayName = `${DISPLAYNAME_PREFIX}.MultiSelect`;
 

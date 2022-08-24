@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { Classes, Code, H5, HTMLSelect, Intent, Label, Menu, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@blueprintjs/docs-theme";
-import { MenuItem2, MenuItem2Props } from "@blueprintjs/popover2";
+import { Classes, Code, H5, HTMLSelect, Intent, Label, Menu, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@mach9/blueprint-docs-theme";
+import { MenuItem2, MenuItem2Props } from "@mach9/blueprint-popover2";
 
 import { PropCodeTooltip } from "../../common/propCodeTooltip";
 import { IntentSelect } from "../core-examples/common/intentSelect";

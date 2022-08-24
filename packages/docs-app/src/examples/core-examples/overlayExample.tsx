@@ -16,8 +16,8 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Button, Classes, Code, H3, H5, Intent, Overlay, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange } from "@blueprintjs/docs-theme";
+import { Button, Classes, Code, H3, H5, Intent, Overlay, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange } from "@mach9/blueprint-docs-theme";
 
 import { IBlueprintExampleData } from "../../tags/types";
 

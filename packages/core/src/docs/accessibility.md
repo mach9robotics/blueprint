@@ -18,7 +18,7 @@ below.
 **You must explictly enable this feature in your app (and you probably want to):**
 
 ```ts
-import { FocusStyleManager } from "@blueprintjs/core";
+import { FocusStyleManager } from "@mach9/blueprint-core";
 
 FocusStyleManager.onlyShowFocusOnTabs();
 ```
@@ -31,7 +31,7 @@ utility because it is always useful to know where you're typing.
 @### JavaScript API
 
 This behavior is controlled by a singleton instance called `FocusStyleManager` that lives in the
-__@blueprintjs/core__ package. It supports the following public methods:
+__@mach9/blueprint-core__ package. It supports the following public methods:
 
 - `FocusStyleManager.isActive(): boolean`: Returns whether the `FocusStyleManager` is currently running.
 - `FocusStyleManager.onlyShowFocusOnTabs(): void`: Enable behavior which hides focus styles during mouse interaction.
@@ -45,7 +45,7 @@ components, like a tree. This is done by applying `Classes.FOCUS_STYLE_MANAGER_I
 to a container element.
 
 ```tsx
-import { Classes } from "@blueprintjs/core";
+import { Classes } from "@mach9/blueprint-core";
 
 
 const MyComponent = () => ({

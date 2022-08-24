@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { IconName, IconNames } from "@blueprintjs/icons";
+import { IconName, IconNames } from "@mach9/blueprint-icons";
 
 export const NONE = "(none)";
 export type IconNameOrNone = IconName | typeof NONE;

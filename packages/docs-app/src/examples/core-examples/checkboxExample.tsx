@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Alignment, Checkbox, H5, Label, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange } from "@blueprintjs/docs-theme";
+import { Alignment, Checkbox, H5, Label, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange } from "@mach9/blueprint-docs-theme";
 
 import { AlignmentSelect } from "./common/alignmentSelect";
 

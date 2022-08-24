@@ -4,12 +4,12 @@
 
 Blueprint is a React UI toolkit for the web.
 
-This package contains the [ESLint](https://eslint.org/) configuration for Blueprint. It enables lint rules which enforce code style conventions and enables the `@blueprintjs/eslint-plugin` plugin.
+This package contains the [ESLint](https://eslint.org/) configuration for Blueprint. It enables lint rules which enforce code style conventions and enables the `@mach9/blueprint-eslint-plugin` plugin.
 
 ## Installation
 
 ```
-yarn add @blueprintjs/eslint-config
+yarn add @mach9/blueprint-eslint-config
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Enable this configuration in your ESLint configuration file (e.g. `.eslintrc.jso
 
 ```json
 {
-    "extends": ["@blueprintjs/eslint-config"]
+    "extends": ["@mach9/blueprint-eslint-config"]
 }
 ```
 

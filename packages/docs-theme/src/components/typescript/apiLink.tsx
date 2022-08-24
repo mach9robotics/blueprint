@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Props } from "@blueprintjs/core";
+import { Props } from "@mach9/blueprint-core";
 
 import { DocumentationContextTypes, IDocumentationContext } from "../../common/context";
 

@@ -30,16 +30,16 @@ import {
     Props,
     refHandler,
     setRef,
-    Utils,
-} from "@blueprintjs/core";
+    Utils
+} from "@mach9/blueprint-core";
 import {
     DateFormatProps,
     DatePickerBaseProps,
     DatePickerUtils,
     DateRangePicker,
-    DateRangeShortcut,
-} from "@blueprintjs/datetime";
-import { Popover2, Popover2Props, Popover2TargetProps } from "@blueprintjs/popover2";
+    DateRangeShortcut
+} from "@mach9/blueprint-datetime";
+import { Popover2, Popover2Props, Popover2TargetProps } from "@mach9/blueprint-popover2";
 
 import { Classes, DateRange, NonNullDateRange } from "../../common";
 import { isDayInRange, isSameTime } from "../../common/dateUtils";

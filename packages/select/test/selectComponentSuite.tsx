@@ -19,7 +19,7 @@ import { ReactWrapper } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { Classes, HTMLInputProps, Keys } from "@blueprintjs/core";
+import { Classes, HTMLInputProps, Keys } from "@mach9/blueprint-core";
 
 import {
     areFilmsEqual,
@@ -27,7 +27,7 @@ import {
     filterFilm,
     IFilm,
     renderFilm,
-    TOP_100_FILMS,
+    TOP_100_FILMS
 } from "../../docs-app/src/common/films";
 import { ListItemsProps } from "../src";
 

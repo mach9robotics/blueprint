@@ -29,7 +29,7 @@ import {
 } from "../utils/cssSyntax";
 import { insertImport } from "../utils/insertImport";
 
-const ruleName = "@blueprintjs/no-prefix-literal";
+const ruleName = "@mach9/blueprint-no-prefix-literal";
 
 const messages = stylelint.utils.ruleMessages(ruleName, {
     expected: (unfixed: any, fixed: any) => `Use the \`${fixed}\` variable instead of the \`${unfixed}\` literal`,

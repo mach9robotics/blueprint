@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Cell, Column, ColumnHeaderCell2, Table2 } from "@blueprintjs/table";
+import { Cell, Column, ColumnHeaderCell2, Table2 } from "@mach9/blueprint-table";
 
 import { ExampleCard } from "./ExampleCard";
 

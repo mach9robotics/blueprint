@@ -39,7 +39,7 @@ ruleTester.run("no-deprecated-core-components", noDeprecatedCoreComponentsRule, 
     invalid: [
         {
             code: dedent`
-                import { MenuItem } from "@blueprintjs/core";
+                import { MenuItem } from "@mach9/blueprint-core";
 
                 return <MenuItem popoverProps={{ boundary: "window" }} />
             `,
@@ -56,7 +56,7 @@ ruleTester.run("no-deprecated-core-components", noDeprecatedCoreComponentsRule, 
         },
         {
             code: dedent`
-                import * as Blueprint from "@blueprintjs/core";
+                import * as Blueprint from "@mach9/blueprint-core";
 
                 return <Blueprint.MenuItem popoverProps={{ boundary: "window" }} />
             `,
@@ -75,14 +75,14 @@ ruleTester.run("no-deprecated-core-components", noDeprecatedCoreComponentsRule, 
     valid: [
         {
             code: dedent`
-                import { MenuItem } from "@blueprintjs/core";
+                import { MenuItem } from "@mach9/blueprint-core";
 
                 return <MenuItem text="Open in new tab" icon="share" />
             `,
         },
         {
             code: dedent`
-                import * as Blueprint from "@blueprintjs/core";
+                import * as Blueprint from "@mach9/blueprint-core";
 
                 return <Blueprint.MenuItem text="Open in new tab" icon="share" />
             `,

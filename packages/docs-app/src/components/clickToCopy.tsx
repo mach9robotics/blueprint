@@ -17,8 +17,8 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { HTMLDivProps, Keys, Props, removeNonHTMLProps } from "@blueprintjs/core";
-import { createKeyEventHandler } from "@blueprintjs/docs-theme";
+import { HTMLDivProps, Keys, Props, removeNonHTMLProps } from "@mach9/blueprint-core";
+import { createKeyEventHandler } from "@mach9/blueprint-docs-theme";
 
 export interface IClickToCopyProps extends Props, HTMLDivProps {
     children?: React.ReactNode;

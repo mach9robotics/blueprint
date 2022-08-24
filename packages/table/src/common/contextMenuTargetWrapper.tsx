@@ -23,7 +23,7 @@
 
 import * as React from "react";
 
-import { ContextMenuTarget, IProps } from "@blueprintjs/core";
+import { ContextMenuTarget, IProps } from "@mach9/blueprint-core";
 
 export interface IContextMenuTargetWrapper extends IProps {
     children?: React.ReactNode;

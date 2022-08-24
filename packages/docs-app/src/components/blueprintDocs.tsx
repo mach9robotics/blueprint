@@ -18,9 +18,9 @@ import { IHeadingNode, IPageData, isPageNode, ITsDocBase } from "@documentalist/
 import classNames from "classnames";
 import * as React from "react";
 
-import { AnchorButton, Classes, HotkeysProvider, Tag } from "@blueprintjs/core";
-import { IDocsCompleteData } from "@blueprintjs/docs-data";
-import { Documentation, IDocumentationProps, NavMenuItem, NavMenuItemProps } from "@blueprintjs/docs-theme";
+import { AnchorButton, Classes, HotkeysProvider, Tag } from "@mach9/blueprint-core";
+import { IDocsCompleteData } from "@mach9/blueprint-docs-data";
+import { Documentation, IDocumentationProps, NavMenuItem, NavMenuItemProps } from "@mach9/blueprint-docs-theme";
 
 import { NavHeader } from "./navHeader";
 import { NavIcon } from "./navIcons";
@@ -78,7 +78,7 @@ export class BlueprintDocs extends React.Component<IBlueprintDocsProps, { themeN
                 onToggleDark={this.handleToggleDark}
                 useDarkTheme={this.state.themeName === DARK_THEME}
                 useNextVersion={this.props.useNextVersion}
-                packageData={this.getNpmPackage("@blueprintjs/core")}
+                packageData={this.getNpmPackage("@mach9/blueprint-core")}
             />
         );
         return (
@@ -112,7 +112,7 @@ export class BlueprintDocs extends React.Component<IBlueprintDocsProps, { themeN
                             <NavIcon route={route} />
                             <span>{title}</span>
                         </a>
-                        {this.maybeRenderPackageLink(`@blueprintjs/${route}`)}
+                        {this.maybeRenderPackageLink(`@mach9/blueprint-${route}`)}
                     </div>
                 );
             } else {
@@ -148,7 +148,7 @@ export class BlueprintDocs extends React.Component<IBlueprintDocsProps, { themeN
     }
 
     private renderViewSourceLinkText = (entry: ITsDocBase) => {
-        return `@blueprintjs/${entry.fileName.split("/", 2)[1]}`;
+        return `@mach9/blueprint-${entry.fileName.split("/", 2)[1]}`;
     };
 
     private maybeRenderPackageLink(packageName: string) {

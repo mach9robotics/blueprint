@@ -19,12 +19,12 @@
  * All changes & bugfixes should be made to TableBody2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
 
-import { AbstractComponent2, Utils as CoreUtils } from "@blueprintjs/core";
+import { AbstractComponent2, Utils as CoreUtils } from "@mach9/blueprint-core";
 
 import type { CellCoordinates } from "./common/cellTypes";
 import * as Classes from "./common/classes";

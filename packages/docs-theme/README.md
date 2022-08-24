@@ -11,7 +11,7 @@ data from markdown files and documented source code.
 ## Installation
 
 ```
-npm install --save @blueprintjs/docs-theme
+npm install --save @mach9/blueprint-docs-theme
 ```
 
 ### [Full Documentation](http://blueprintjs.com/docs) | [Source Code](https://github.com/palantir/blueprint)

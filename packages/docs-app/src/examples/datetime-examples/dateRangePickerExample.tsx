@@ -17,15 +17,15 @@
 import moment from "moment";
 import * as React from "react";
 
-import { Classes, H5, HTMLSelect, Label, Switch } from "@blueprintjs/core";
-import { DateRange, DateRangePicker, TimePrecision } from "@blueprintjs/datetime";
+import { Classes, H5, HTMLSelect, Label, Switch } from "@mach9/blueprint-core";
+import { DateRange, DateRangePicker, TimePrecision } from "@mach9/blueprint-datetime";
 import {
     Example,
     ExampleProps,
     handleBooleanChange,
     handleNumberChange,
     handleValueChange,
-} from "@blueprintjs/docs-theme";
+} from "@mach9/blueprint-docs-theme";
 
 import { MomentDateRange } from "./common/momentDate";
 import { PrecisionSelect } from "./common/precisionSelect";

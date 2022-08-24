@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { Button, Classes, Code } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
-import { Placement, Popover2 } from "@blueprintjs/popover2";
+import { Button, Classes, Code } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
+import { Placement, Popover2 } from "@mach9/blueprint-popover2";
 
 const EXAMPLE_CLASS = "docs-popover2-placement-example";
 const SIDE_LABEL_CLASS = "docs-popover2-placement-label-side";
@@ -30,7 +30,7 @@ export class Popover2PlacementExample extends React.PureComponent<ExampleProps> 
     public render() {
         return (
             <Example className={EXAMPLE_CLASS} options={false} {...this.props}>
-                {/* eslint-disable-next-line @blueprintjs/html-components */}
+                {/* eslint-disable-next-line @mach9/blueprint-html-components */}
                 <table>
                     <tbody>
                         <tr>

@@ -7,7 +7,7 @@ Deprecated: use [Breadcrumbs2](#popover2-package/breadcrumbs2)
 
 </h4>
 
-This component is **deprecated since @blueprintjs/core v4.7.0** in favor of the new
+This component is **deprecated since @mach9/blueprint-core v4.7.0** in favor of the new
 Breadcrumbs2 component, which uses Popover2 instead of Popover under the hood.
 You should migrate to the new API which will become the standard in Blueprint v5.
 
@@ -27,7 +27,7 @@ an [`OverflowList`](#core/components/overflow-list) to automatically collapse
 breadcrumbs that do not fit in the available space.
 
 ```tsx
-const { Breadcrumbs, IBreadcrumbProps, Icon } = "@blueprintjs/core";
+const { Breadcrumbs, IBreadcrumbProps, Icon } = "@mach9/blueprint-core";
 
 const BREADCRUMBS: IBreadcrumbProps[] = [
     { href: "/users", icon: "folder-close", text: "Users" },

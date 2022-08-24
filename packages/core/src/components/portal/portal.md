@@ -16,7 +16,7 @@ Deprecated: use [PortalProvider](#core/context/portal-provider)
 
 </h4>
 
-This API is **deprecated since @blueprintjs/core v4.8.0** in favor of
+This API is **deprecated since @mach9/blueprint-core v4.8.0** in favor of
 [PortalProvider](#core/context/portal-provider), which uses the
 [newer React context API](https://reactjs.org/docs/context.html).
 

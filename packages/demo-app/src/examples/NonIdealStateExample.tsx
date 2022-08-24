@@ -15,7 +15,7 @@
 
 import * as React from "react";
 
-import { Button, NonIdealState } from "@blueprintjs/core";
+import { Button, NonIdealState } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

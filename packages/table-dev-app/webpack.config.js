@@ -16,7 +16,7 @@
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const path = require("path");
 
-const { baseConfig } = require("@blueprintjs/webpack-build-scripts");
+const { baseConfig } = require("@mach9/blueprint-webpack-build-scripts");
 
 module.exports = Object.assign({}, baseConfig, {
     entry: {

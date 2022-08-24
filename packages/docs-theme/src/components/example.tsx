@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Props } from "@blueprintjs/core";
+import { Props } from "@mach9/blueprint-core";
 
 /** @deprecated use ExampleProps */
 // eslint-disable-next-line @typescript-eslint/ban-types
@@ -89,7 +89,7 @@ export interface IDocsExampleProps extends ExampleProps {
  * Container for an example and its options.
  *
  * ```tsx
- * import { Example, ExampleProps } from "@blueprintjs/docs-theme";
+ * import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
  * // use ExampleProps as your props type,
  * // then spread it to <Example> below
  * export class MyExample extends React.PureComponent<ExampleProps, [your state]> {

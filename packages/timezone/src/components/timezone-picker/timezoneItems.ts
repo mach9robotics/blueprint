@@ -16,7 +16,7 @@
 
 import * as moment from "moment-timezone";
 
-import { IconName } from "@blueprintjs/core";
+import { IconName } from "@mach9/blueprint-core";
 
 import { getTimezoneMetadata, ITimezoneMetadata } from "./timezoneMetadata";
 

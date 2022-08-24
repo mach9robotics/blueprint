@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Button, ButtonGroup, Intent } from "@blueprintjs/core";
+import { Button, ButtonGroup, Intent } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

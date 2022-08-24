@@ -93,7 +93,7 @@ Deprecated prop `popoverProps`: use [MenuItem2](#popover2-package/menu-item2)
 
 </h4>
 
-Usage of `<MenuItem popoverProps={...}>` is **deprecated since @blueprintjs/core v4.7.0**
+Usage of `<MenuItem popoverProps={...}>` is **deprecated since @mach9/blueprint-core v4.7.0**
 in favor of the new MenuItem2 component, which uses Popover2 instead of Popover under the hood.
 If you use customize the layout of submenus using this prop, you should migrate to the new API
 which will become the standard in Blueprint v5.

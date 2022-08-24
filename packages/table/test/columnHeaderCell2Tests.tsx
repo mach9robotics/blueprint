@@ -19,8 +19,8 @@ import { mount } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { H4, Menu, MenuItem } from "@blueprintjs/core";
-import { Classes as Popover2Classes } from "@blueprintjs/popover2";
+import { H4, Menu, MenuItem } from "@mach9/blueprint-core";
+import { Classes as Popover2Classes } from "@mach9/blueprint-popover2";
 
 import { ColumnHeaderCell2, ColumnHeaderCell2Props } from "../src";
 import * as Classes from "../src/common/classes";

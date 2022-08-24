@@ -15,10 +15,10 @@
 
 // @ts-check
 
-require("@blueprintjs/test-commons/bootstrap");
+require("@mach9/blueprint-test-commons/bootstrap");
 const React = require("react");
 
-const { generateIsomorphicTests } = require("@blueprintjs/test-commons");
+const { generateIsomorphicTests } = require("@mach9/blueprint-test-commons");
 
 const Popover2Package = require("../lib/cjs");
 

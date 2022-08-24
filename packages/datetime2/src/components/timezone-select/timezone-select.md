@@ -12,7 +12,7 @@ Migrating from [TimezonePicker](#timezone/timezone-picker)?
 </h4>
 
 TimezoneSelect is a replacement for [TimezonePicker component](#timezone/timezone-picker) from
-the [__@blueprintjs/timezone__ package](#timezone) and will replace it in Blueprint v5.
+the [__@mach9/blueprint-timezone__ package](#timezone) and will replace it in Blueprint v5.
 You are encouraged to use this new API now to ease the transition to the next major version of Blueprint.
 See the [migration guide](https://github.com/palantir/blueprint/wiki/datetime2-component-migration)
 on the wiki.
@@ -54,7 +54,7 @@ in all browsers.
 </div>
 
 ```tsx
-import { TimezoneSelect } from "@blueprintjs/datetime2";
+import { TimezoneSelect } from "@mach9/blueprint-datetime2";
 
 export class TimezoneExample extends React.PureComponent<{}, { timezone: string; }> {
     public state = { timezone: "" };

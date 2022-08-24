@@ -19,20 +19,18 @@
  * All changes & bugfixes should be made to Table2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
 import innerText from "react-innertext";
 
 import {
-    AbstractComponent2,
-    Utils as CoreUtils,
-    DISPLAYNAME_PREFIX,
+    AbstractComponent2, DISPLAYNAME_PREFIX,
     Hotkey,
     Hotkeys,
-    HotkeysTarget,
-} from "@blueprintjs/core";
+    HotkeysTarget, Utils as CoreUtils
+} from "@mach9/blueprint-core";
 
 import { CellRenderer } from "./cell/cell";
 import { Column, IColumnProps } from "./column";
@@ -59,7 +57,7 @@ import { ColumnLoadingOption, Region, RegionCardinality, Regions, SelectionModes
 import {
     IResizeRowsByApproximateHeightOptions,
     resizeRowsByApproximateHeight,
-    resizeRowsByTallestCell,
+    resizeRowsByTallestCell
 } from "./resizeRows";
 import { TableBody } from "./tableBody";
 import { TableHotkeys } from "./tableHotkeys";

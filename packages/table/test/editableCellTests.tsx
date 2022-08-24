@@ -24,7 +24,7 @@ import { mount } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { Classes } from "@blueprintjs/core";
+import { Classes } from "@mach9/blueprint-core";
 
 /* eslint-disable deprecation/deprecation */
 

@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { H5, HandleInteractionKind, Intent, MultiSlider, Radio, RadioGroup, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@blueprintjs/docs-theme";
+import { H5, HandleInteractionKind, Intent, MultiSlider, Radio, RadioGroup, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@mach9/blueprint-docs-theme";
 
 interface ISliderValues {
     dangerStart: number;

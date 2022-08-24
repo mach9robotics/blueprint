@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Alert, Button, H5, Intent, Switch, Toaster, ToasterInstance } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange } from "@blueprintjs/docs-theme";
+import { Alert, Button, H5, Intent, Switch, Toaster, ToasterInstance } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange } from "@mach9/blueprint-docs-theme";
 
 import { IBlueprintExampleData } from "../../tags/types";
 

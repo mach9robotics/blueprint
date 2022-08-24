@@ -19,10 +19,10 @@
  * All changes & bugfixes should be made to TimezoneSelect instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import { assert } from "chai";
-import { mount, ShallowRendererProps, ShallowWrapper, shallow as untypedShallow } from "enzyme";
+import { mount, shallow as untypedShallow, ShallowRendererProps, ShallowWrapper } from "enzyme";
 import * as moment from "moment-timezone";
 import * as React from "react";
 import * as sinon from "sinon";
@@ -35,16 +35,16 @@ import {
     IPopoverProps,
     MenuItem,
     Popover,
-    Position,
-} from "@blueprintjs/core";
-import { QueryList, Select } from "@blueprintjs/select";
+    Position
+} from "@mach9/blueprint-core";
+import { QueryList, Select } from "@mach9/blueprint-select";
 
 import { ITimezonePickerState, TimezoneDisplayFormat, TimezonePicker, TimezonePickerProps } from "../src";
 import {
     getInitialTimezoneItems,
     getLocalTimezoneItem,
     getTimezoneItems,
-    TimezoneItem,
+    TimezoneItem
 } from "../src/components/timezone-picker/timezoneItems";
 
 type TimezonePickerShallowWrapper = ShallowWrapper<TimezonePickerProps, ITimezonePickerState>;

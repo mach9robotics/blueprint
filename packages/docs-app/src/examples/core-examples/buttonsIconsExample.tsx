@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Button, Icon } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
+import { Button, Icon } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
 
 export class ButtonsIconsExample extends React.PureComponent<ExampleProps> {
     public render() {

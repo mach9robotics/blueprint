@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { HTMLSelect, Intent, Label } from "@blueprintjs/core";
+import { HTMLSelect, Intent, Label } from "@mach9/blueprint-core";
 
 const INTENTS = [
     { label: "None", value: Intent.NONE },

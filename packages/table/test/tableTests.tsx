@@ -15,13 +15,13 @@
  */
 
 import { expect } from "chai";
-import { MountRendererProps, ReactWrapper, mount as untypedMount } from "enzyme";
+import { mount as untypedMount, MountRendererProps, ReactWrapper } from "enzyme";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import * as sinon from "sinon";
 
-import { Utils as CoreUtils, Keys } from "@blueprintjs/core";
-import { dispatchMouseEvent, expectPropValidationError } from "@blueprintjs/test-commons";
+import { Keys, Utils as CoreUtils } from "@mach9/blueprint-core";
+import { dispatchMouseEvent, expectPropValidationError } from "@mach9/blueprint-test-commons";
 
 import { Cell, Column, RegionCardinality, Table, TableLoadingOption, TableProps } from "../src";
 import type { ICellCoordinates, IFocusedCellCoordinates } from "../src/common/cellTypes";

@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { H5, NumberRange, RangeSlider, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange } from "@blueprintjs/docs-theme";
+import { H5, NumberRange, RangeSlider, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange } from "@mach9/blueprint-docs-theme";
 
 export interface IRangeSliderExampleState {
     range: NumberRange;

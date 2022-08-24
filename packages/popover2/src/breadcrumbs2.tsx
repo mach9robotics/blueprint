@@ -29,7 +29,7 @@ import {
     OverflowListProps,
     Props,
     removeNonHTMLProps,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 
 import { Popover2, Popover2Props } from "./popover2";
 

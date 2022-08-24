@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
-import { Cell, Column, Table2, Utils } from "@blueprintjs/table";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
+import { Cell, Column, Table2, Utils } from "@mach9/blueprint-table";
 
 export interface ITableFreezingExampleState {
     numFrozenColumns?: number;

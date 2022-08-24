@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { AbstractComponent2, DISPLAYNAME_PREFIX, Keys, Menu, Props, Utils } from "@blueprintjs/core";
+import { AbstractComponent2, DISPLAYNAME_PREFIX, Keys, Menu, Props, Utils } from "@mach9/blueprint-core";
 
 import {
     CreateNewItem,
@@ -27,7 +27,7 @@ import {
     ItemListRendererProps,
     ItemModifiers,
     ListItemsProps,
-    renderFilteredItems,
+    renderFilteredItems
 } from "../../common";
 
 // eslint-disable-next-line deprecation/deprecation

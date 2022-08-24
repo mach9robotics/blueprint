@@ -2,7 +2,7 @@
  * Copyright 2021 Palantir Technologies, Inc. All rights reserved.
  */
 
-const { createKarmaConfig } = require("@blueprintjs/karma-build-scripts");
+const { createKarmaConfig } = require("@mach9/blueprint-karma-build-scripts");
 
 module.exports = function (config) {
     const baseConfig = createKarmaConfig({

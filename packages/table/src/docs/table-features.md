@@ -164,11 +164,11 @@ and a `<JSONFormat2 detectTruncation={true}>` component to show the timezone inf
 
 <h4 class="@ns-heading">Additional CSS required</h4>
 
-These cell formatting components depend on @blueprintjs/popover2 styles, so you must remember to import
+These cell formatting components depend on @mach9/blueprint-popover2 styles, so you must remember to import
 that package's stylesheet in your application in addition to `table.css`:
 
 ```scss
-@import "~@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+@import "~@mach9/blueprint-popover2/lib/css/blueprint-popover2.css";
 ```
 </div>
 

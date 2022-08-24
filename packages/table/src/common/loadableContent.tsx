@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Classes } from "@blueprintjs/core";
+import { Classes } from "@mach9/blueprint-core";
 
 export interface ILoadableContentProps {
     children?: React.ReactNode;

@@ -1,36 +1,36 @@
 @# Table
 
-The [__@blueprintjs/table__ package](https://www.npmjs.com/package/@blueprintjs/select) provides components
+The [__@mach9/blueprint-table__ package](https://www.npmjs.com/package/@mach9/blueprint-select) provides components
 to build a highly interactive table or spreadsheet UI.
 
 <div class="@ns-callout @ns-large @ns-intent-primary @ns-icon-info-sign">
 
 If you are looking for the simpler Blueprint-styled HTML `<table>` instead, see
-[the `HTMLTable` component in **@blueprintjs/core**](#core/components/html-table).
+[the `HTMLTable` component in **@mach9/blueprint-core**](#core/components/html-table).
 </div>
 
 Make sure to review the [getting started docs for installation info](#blueprint/getting-started).
 
 ```sh
-npm install --save @blueprintjs/table
+npm install --save @mach9/blueprint-table
 ```
 
 Do not forget to include `table.css` on your page:
 
 ```scss
-@import "~@blueprintjs/table/lib/css/table.css";
+@import "~@mach9/blueprint-table/lib/css/table.css";
 ```
 
 <div class="@ns-callout @ns-intent-warning @ns-icon-warning-sign">
 
 <h4 class="@ns-heading">Additional CSS required</h4>
 
-__ColumnHeaderCell2__, __JSONFormat2__, and __TruncatedFormat2__ (available since @blueprintjs/table v4.6.0)
-depend on @blueprintjs/popover2 styles, so you must also import this CSS file for those components
+__ColumnHeaderCell2__, __JSONFormat2__, and __TruncatedFormat2__ (available since @mach9/blueprint-table v4.6.0)
+depend on @mach9/blueprint-popover2 styles, so you must also import this CSS file for those components
 to display properly:
 
 ```scss
-@import "~@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+@import "~@mach9/blueprint-popover2/lib/css/blueprint-popover2.css";
 ```
 </div>
 
@@ -58,7 +58,7 @@ and change the `numRows` prop on the `Table` to set the number of rows.
 For example, this code creates an empty table with three columns and five rows:
 
 ```tsx
-import { Column, Table } from "@blueprintjs/table";
+import { Column, Table } from "@mach9/blueprint-table";
 
 <Table numRows={5}>
     <Column />
@@ -75,7 +75,7 @@ This is useful when working with typed columnar data, like database results.
 For example, this creates a table that renders dollar and euro values:
 
 ```tsx
-import { Cell, Column, Table } from "@blueprintjs/table";
+import { Cell, Column, Table } from "@mach9/blueprint-table";
 
 const dollarCellRenderer = (rowIndex: number) => (
     <Cell>{`$${(rowIndex * 10).toFixed(2)}`}</Cell>

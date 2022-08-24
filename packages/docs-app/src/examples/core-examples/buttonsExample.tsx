@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { AnchorButton, Button, Code, H5, Intent, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@blueprintjs/docs-theme";
+import { AnchorButton, Button, Code, H5, Intent, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@mach9/blueprint-docs-theme";
 
 import { IntentSelect } from "./common/intentSelect";
 import { Size, SizeSelect } from "./common/sizeSelect";

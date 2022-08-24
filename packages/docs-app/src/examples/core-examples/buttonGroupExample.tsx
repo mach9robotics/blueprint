@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { Alignment, AnchorButton, Button, ButtonGroup, Classes, H5, Icon, Intent, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@blueprintjs/docs-theme";
-import { Tooltip2 } from "@blueprintjs/popover2";
+import { Alignment, AnchorButton, Button, ButtonGroup, Classes, H5, Icon, Intent, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@mach9/blueprint-docs-theme";
+import { Tooltip2 } from "@mach9/blueprint-popover2";
 
 import { AlignmentSelect } from "./common/alignmentSelect";
 import { IntentSelect } from "./common/intentSelect";

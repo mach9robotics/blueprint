@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import type { IconName } from "@blueprintjs/icons";
+import type { IconName } from "@mach9/blueprint-icons";
 
 import { Intent } from "./intent";
 

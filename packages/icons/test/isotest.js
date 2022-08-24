@@ -14,8 +14,8 @@
  */
 
 // @ts-check
-require("@blueprintjs/test-commons/bootstrap");
-const { generateIsomorphicTests } = require("@blueprintjs/test-commons");
+require("@mach9/blueprint-test-commons/bootstrap");
+const { generateIsomorphicTests } = require("@mach9/blueprint-test-commons");
 const React = require("react");
 const Icons = require("../lib/cjs");
 

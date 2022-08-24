@@ -18,7 +18,7 @@ import { Boundary, Modifier, Placement, placements, RootBoundary, StrictModifier
 import * as React from "react";
 import { StrictModifier } from "react-popper";
 
-import { OverlayableProps, PopoverPosition, Props } from "@blueprintjs/core";
+import { OverlayableProps, PopoverPosition, Props } from "@mach9/blueprint-core";
 
 export { Boundary as PopperBoundary, Placement, placements as PlacementOptions };
 // copied from @popperjs/core, where it is not exported as public

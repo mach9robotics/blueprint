@@ -19,19 +19,19 @@ const eslintBuiltinRules = require("./eslint-builtin-rules.json");
 const eslintPluginRules = require("./eslint-plugin-rules.json");
 
 /**
- * Enable @blueprintjs/eslint-plugin.
+ * Enable @mach9/blueprint-eslint-plugin.
  * For TS files, configure typescript-eslint, including type-aware lint rules which use the TS program.
  */
 module.exports = {
     plugins: ["@blueprintjs", "header", "import", "jsdoc", "react"],
-    extends: ["plugin:@blueprintjs/recommended", "plugin:import/typescript"],
+    extends: ["plugin:@mach9/blueprint-recommended", "plugin:import/typescript"],
     parserOptions: { ecmaVersion: 2017 },
     settings: {
         "import/internal-regex": "^@blueprintjs",
     },
     rules: {
         // HACKHACK: this rule impl has too many false positives
-        "@blueprintjs/classes-constants": "off",
+        "@mach9/blueprint-classes-constants": "off",
         ...eslintBuiltinRules,
         ...eslintPluginRules,
     },

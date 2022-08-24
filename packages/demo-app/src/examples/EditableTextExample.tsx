@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { EditableText, H1 } from "@blueprintjs/core";
+import { EditableText, H1 } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

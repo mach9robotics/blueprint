@@ -23,7 +23,7 @@ import {
     ITypescriptPluginData,
 } from "@documentalist/client";
 
-import { Utils } from "@blueprintjs/core";
+import { Utils } from "@mach9/blueprint-core";
 
 /* eslint-disable @typescript-eslint/ban-types */
 /** This docs theme requires Markdown data and optionally supports Typescript and KSS data. */

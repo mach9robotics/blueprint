@@ -19,7 +19,7 @@
  * All changes & bugfixes should be made to Popover2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import * as React from "react";
 
@@ -44,14 +44,14 @@ import {
     RadioGroup,
     Slider,
     Switch,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 import {
     Example,
     ExampleProps,
     handleBooleanChange,
     handleNumberChange,
     handleValueChange,
-} from "@blueprintjs/docs-theme";
+} from "@mach9/blueprint-docs-theme";
 
 const INTERACTION_KINDS = [
     { label: "Click", value: PopoverInteractionKind.CLICK.toString() },

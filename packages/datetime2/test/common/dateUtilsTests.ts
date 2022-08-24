@@ -16,7 +16,7 @@
 
 import { expect } from "chai";
 
-import { Months } from "@blueprintjs/datetime";
+import { Months } from "@mach9/blueprint-datetime";
 
 import { isDayInRange, isSameTime } from "../../src/common/dateUtils";
 

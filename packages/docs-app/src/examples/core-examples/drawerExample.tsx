@@ -31,15 +31,15 @@ import {
     OptionProps,
     Position,
     Switch,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 import {
     Example,
     ExampleProps,
     handleBooleanChange,
     handleStringChange,
     handleValueChange,
-} from "@blueprintjs/docs-theme";
-import { ContextMenu2 } from "@blueprintjs/popover2";
+} from "@mach9/blueprint-docs-theme";
+import { ContextMenu2 } from "@mach9/blueprint-popover2";
 
 import { IBlueprintExampleData } from "../../tags/types";
 

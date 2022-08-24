@@ -21,7 +21,7 @@ import { mount, ReactWrapper } from "enzyme";
 import * as React from "react";
 import { SinonSpy, spy } from "sinon";
 
-import { dispatchTestKeyboardEvent, expectPropValidationError } from "@blueprintjs/test-commons";
+import { dispatchTestKeyboardEvent, expectPropValidationError } from "@mach9/blueprint-test-commons";
 
 import {
     Classes,
@@ -33,7 +33,7 @@ import {
     Hotkeys,
     HotkeysTarget,
     IKeyCombo,
-    parseKeyCombo,
+    parseKeyCombo
 } from "../../src";
 import { HOTKEYS_HOTKEY_CHILDREN } from "../../src/common/errors";
 import { normalizeKeyCombo } from "../../src/components/hotkeys/hotkeyParser";

@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Code } from "@blueprintjs/core";
-import { Tooltip2, Tooltip2Props } from "@blueprintjs/popover2";
+import { Code } from "@mach9/blueprint-core";
+import { Tooltip2, Tooltip2Props } from "@mach9/blueprint-popover2";
 
 /**
  * Opinionated subset of tooltip props.
@@ -31,7 +31,7 @@ export interface PropCodeTooltipProps
 
 /**
  * An explanatory tooltip for a component prop control rendered inside the options
- * of a @blueprintjs/docs-theme `<Example>`. This component will render its provided `props.snippet`
+ * of a @mach9/blueprint-docs-theme `<Example>`. This component will render its provided `props.snippet`
  * inside a `<Code>` element as the tooltip content.
  */
 export const PropCodeTooltip: React.FC<PropCodeTooltipProps> = ({ snippet, ...props }) => {

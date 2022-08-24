@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { Classes } from "@blueprintjs/core";
-import { DateRangePicker } from "@blueprintjs/datetime";
+import { Classes } from "@mach9/blueprint-core";
+import { DateRangePicker } from "@mach9/blueprint-datetime";
 
 import { ExampleCard } from "./ExampleCard";
 

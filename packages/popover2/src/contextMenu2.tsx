@@ -24,7 +24,7 @@ import {
     mergeRefs,
     Portal,
     Props,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 
 import * as Classes from "./classes";
 import { Popover2, Popover2Props } from "./popover2";

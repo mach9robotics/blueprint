@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Code } from "@blueprintjs/core";
+import { Code } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

@@ -20,7 +20,7 @@
  * package instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import { expect } from "chai";
 import { mount, ReactWrapper } from "enzyme";
@@ -40,8 +40,8 @@ import {
     Keys,
     Popover,
     Position,
-} from "@blueprintjs/core";
-import { expectPropValidationError } from "@blueprintjs/test-commons";
+} from "@mach9/blueprint-core";
+import { expectPropValidationError } from "@mach9/blueprint-test-commons";
 
 import { Classes as DateClasses, DateRange, DateRangeInput, DateRangePicker, TimePrecision } from "../src";
 import { Months } from "../src/common/months";

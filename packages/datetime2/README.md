@@ -6,7 +6,7 @@ Blueprint is a React UI toolkit for the web.
 
 This package contains a collection of React components for working with dates
 and times. These are modern variants of the components available in the
-`@blueprintjs/datetime` package; they will become the standard date & time
+`@mach9/blueprint-datetime` package; they will become the standard date & time
 components in a future major version of Blueprint.
 
 Compared to their "V1" counterparts, these components:
@@ -16,16 +16,16 @@ Compared to their "V1" counterparts, these components:
   the list of available timezones
 - no longer use the deprecated moment.js library
 
-At the moment, `@blueprintjs/datetime` is a dependency of this
+At the moment, `@mach9/blueprint-datetime` is a dependency of this
 package, as it delegates to the `<DatePicker>` and `<DateRangePicker>`
 implementation exported from there. When these "V2" components graduate
 to become the standard API, all Blueprint date/time components will
-be collected into a single package, `@blueprintjs/datetime@5.x`.
+be collected into a single package, `@mach9/blueprint-datetime@5.x`.
 
 ## Installation
 
 ```
-npm install --save @blueprintjs/datetime2
+npm install --save @mach9/blueprint-datetime2
 ```
 
 ### [Full Documentation](http://blueprintjs.com/docs) | [Source Code](https://github.com/palantir/blueprint)

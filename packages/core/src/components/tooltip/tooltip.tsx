@@ -70,7 +70,7 @@ export interface ITooltipProps extends IPopoverSharedProps, IntentProps {
     transitionDuration?: number;
 }
 
-/** @deprecated use { Tooltip2 } from "@blueprintjs/popover2" */
+/** @deprecated use { Tooltip2 } from "@mach9/blueprint-popover2" */
 // eslint-disable-next-line deprecation/deprecation
 export class Tooltip extends AbstractPureComponent2<TooltipProps> {
     public static displayName = `${DISPLAYNAME_PREFIX}.Tooltip`;

@@ -14,8 +14,9 @@
  * limitations under the License.
  */
 
-export type { DateFormatProps } from "@blueprintjs/datetime";
-
+export type { DateFormatProps } from "@mach9/blueprint-datetime";
 export { DateInput2, DateInput2Props } from "./date-input2/dateInput2";
 export { DateRangeInput2, DateRangeInput2Props } from "./date-range-input2/dateRangeInput2";
 export { TimezoneSelect, TimezoneSelectProps } from "./timezone-select/timezoneSelect";
+
+

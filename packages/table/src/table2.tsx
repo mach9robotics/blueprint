@@ -18,13 +18,11 @@ import * as React from "react";
 import innerText from "react-innertext";
 
 import {
-    AbstractComponent2,
-    Utils as CoreUtils,
-    DISPLAYNAME_PREFIX,
+    AbstractComponent2, DISPLAYNAME_PREFIX,
     HotkeyConfig,
     HotkeysTarget2,
-    UseHotkeysReturnValue,
-} from "@blueprintjs/core";
+    UseHotkeysReturnValue, Utils as CoreUtils
+} from "@mach9/blueprint-core";
 
 import { CellRenderer } from "./cell/cell";
 import { Column, ColumnProps } from "./column";
@@ -50,7 +48,7 @@ import { ColumnLoadingOption, Region, RegionCardinality, Regions, SelectionModes
 import {
     IResizeRowsByApproximateHeightOptions,
     resizeRowsByApproximateHeight,
-    resizeRowsByTallestCell,
+    resizeRowsByTallestCell
 } from "./resizeRows";
 import { compareChildren, getHotkeysFromProps, isSelectionModeEnabled } from "./table2Utils";
 import { TableBody2 } from "./tableBody2";

@@ -17,7 +17,7 @@
 import { expect } from "chai";
 import * as React from "react";
 
-import { Classes as CoreClasses, Intent } from "@blueprintjs/core";
+import { Classes as CoreClasses, Intent } from "@mach9/blueprint-core";
 
 import { Cell } from "../src/cell/cell";
 import * as Classes from "../src/common/classes";

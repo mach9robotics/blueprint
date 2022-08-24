@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Classes, Intent, Props } from "@blueprintjs/core";
+import { Classes, Intent, Props } from "@mach9/blueprint-core";
 
 export interface IBannerProps extends Props {
     children?: React.ReactNode;

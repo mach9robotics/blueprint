@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type { Popover2, Popover2Props } from "@blueprintjs/popover2";
+import type { Popover2, Popover2Props } from "@mach9/blueprint-popover2";
 
 /**
  * Reusable collection of props for components in this package which render a `Popover2`

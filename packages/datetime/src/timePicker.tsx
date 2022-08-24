@@ -26,7 +26,7 @@ import {
     Intent,
     Keys,
     Props,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 
 import * as Classes from "./common/classes";
 import * as DateUtils from "./common/dateUtils";

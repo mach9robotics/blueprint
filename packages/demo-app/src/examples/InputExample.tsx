@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { InputGroup, Intent, NumericInput } from "@blueprintjs/core";
+import { InputGroup, Intent, NumericInput } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

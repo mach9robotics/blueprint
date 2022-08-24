@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Tab, Tabs } from "@blueprintjs/core";
+import { Tab, Tabs } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

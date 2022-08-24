@@ -7,7 +7,7 @@ Deprecated: use [MultiSelect2](#select/multi-select2)
 
 </h4>
 
-This component is **deprecated since @blueprintjs/select v4.3.0** in favor of the new
+This component is **deprecated since @mach9/blueprint-select v4.3.0** in favor of the new
 MultiSelect2 component, which uses Popover2 instead of Popover under the hood.
 You should migrate to the new API which will become the standard in Blueprint v5.
 

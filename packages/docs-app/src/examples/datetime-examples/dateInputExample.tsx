@@ -19,13 +19,13 @@
  * All changes & bugfixes should be made to DateInput2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import * as React from "react";
 
-import { H5, Position, Switch } from "@blueprintjs/core";
-import { DateFormatProps, DateInput, TimePrecision } from "@blueprintjs/datetime";
-import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@blueprintjs/docs-theme";
+import { H5, Position, Switch } from "@mach9/blueprint-core";
+import { DateFormatProps, DateInput, TimePrecision } from "@mach9/blueprint-datetime";
+import { Example, ExampleProps, handleBooleanChange, handleValueChange } from "@mach9/blueprint-docs-theme";
 
 import { MomentDate } from "./common/momentDate";
 import { MOMENT_FORMATS, MomentFormatSelector } from "./common/momentFormats";

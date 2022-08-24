@@ -20,7 +20,7 @@
  * package instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
@@ -41,7 +41,7 @@ import {
     Props,
     refHandler,
     setRef,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 
 import { DateRange } from "./common/dateRange";
 import { areSameTime, isDateValid, isDayInRange } from "./common/dateUtils";
@@ -220,7 +220,7 @@ interface IStateKeysAndValuesObject {
     };
 }
 
-/** @deprecated use { DateRangeInput2 } from "@blueprintjs/datetime2" */
+/** @deprecated use { DateRangeInput2 } from "@mach9/blueprint-datetime2" */
 export class DateRangeInput extends AbstractPureComponent2<DateRangeInputProps, IDateRangeInputState> {
     public static defaultProps: Partial<DateRangeInputProps> = {
         allowSingleDayRange: false,

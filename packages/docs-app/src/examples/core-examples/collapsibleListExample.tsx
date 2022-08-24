@@ -19,7 +19,7 @@
  * All changes & bugfixes should be made to OverflowList instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
@@ -34,8 +34,8 @@ import {
     MenuItemProps,
     RadioGroup,
     Slider,
-} from "@blueprintjs/core";
-import { Example, ExampleProps, handleValueChange } from "@blueprintjs/docs-theme";
+} from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleValueChange } from "@mach9/blueprint-docs-theme";
 
 export interface ICollapsibleListExampleState {
     collapseFrom?: Boundary;

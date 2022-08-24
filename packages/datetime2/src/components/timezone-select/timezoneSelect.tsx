@@ -26,9 +26,9 @@ import {
     DISPLAYNAME_PREFIX,
     InputGroupProps2,
     MenuItem,
-    Props,
-} from "@blueprintjs/core";
-import { ItemListPredicate, ItemRenderer, Select2, SelectPopoverProps } from "@blueprintjs/select";
+    Props
+} from "@mach9/blueprint-core";
+import { ItemListPredicate, ItemRenderer, Select2, SelectPopoverProps } from "@mach9/blueprint-select";
 
 import * as Classes from "../../common/classes";
 import { TIMEZONE_ITEMS } from "../../common/timezoneItems";

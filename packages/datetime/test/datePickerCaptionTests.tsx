@@ -19,7 +19,7 @@ import { mount } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { HTMLSelect } from "@blueprintjs/core";
+import { HTMLSelect } from "@mach9/blueprint-core";
 
 import { Classes, IDatePickerLocaleUtils } from "../src";
 import { DatePickerCaption, IDatePickerCaptionProps } from "../src/datePickerCaption";

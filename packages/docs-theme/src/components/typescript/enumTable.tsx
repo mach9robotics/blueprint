@@ -18,7 +18,7 @@ import { ITsEnum, ITsEnumMember } from "@documentalist/client";
 import classNames from "classnames";
 import * as React from "react";
 
-import { Props } from "@blueprintjs/core";
+import { Props } from "@mach9/blueprint-core";
 
 import { DocumentationContextTypes, IDocumentationContext } from "../../common/context";
 import { ModifierTable } from "../modifierTable";
@@ -54,7 +54,7 @@ export class EnumTable extends React.PureComponent<IEnumTableProps> {
 
     private renderPropRow = (entry: ITsEnumMember) => {
         // this is inside RUNNING_TEXT
-        /* eslint-disable @blueprintjs/html-components */
+        /* eslint-disable @mach9/blueprint-html-components */
         const { renderBlock } = this.context;
         const {
             flags: { isDeprecated, isExternal },

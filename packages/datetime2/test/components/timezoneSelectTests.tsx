@@ -19,9 +19,9 @@ import { mount, ReactWrapper } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { Button, ButtonProps, InputGroup, InputGroupProps2, MenuItem } from "@blueprintjs/core";
-import { Popover2, Popover2Props } from "@blueprintjs/popover2";
-import { QueryList, Select2 } from "@blueprintjs/select";
+import { Button, ButtonProps, InputGroup, InputGroupProps2, MenuItem } from "@mach9/blueprint-core";
+import { Popover2, Popover2Props } from "@mach9/blueprint-popover2";
+import { QueryList, Select2 } from "@mach9/blueprint-select";
 
 import { TimezoneSelect, TimezoneSelectProps } from "../../src";
 import { TIMEZONE_ITEMS } from "../../src/common/timezoneItems";

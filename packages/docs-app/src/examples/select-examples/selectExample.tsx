@@ -16,8 +16,8 @@
 
 import * as React from "react";
 
-import { H5, MenuItem, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
+import { H5, MenuItem, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
 
 import { IFilm, TOP_100_FILMS } from "../../common/films";
 import FilmSelect from "../../common/filmSelect";

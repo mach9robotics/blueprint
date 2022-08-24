@@ -163,7 +163,7 @@ function renameString() {
 
 echo "
 
-Renames for @blueprintjs/table"
+Renames for @mach9/blueprint-table"
 renameProp allowMultipleSelection enableMultipleSelection
 renameProp fillBodyWithGhostCells enableGhostCells
 renameProp isColumnReorderable enableColumnReordering
@@ -193,7 +193,7 @@ warnProp renderMenu menuRenderer
 
 echo "
 
-Renames for @blueprintjs/core"
+Renames for @mach9/blueprint-core"
 renameProp renderVisibleItem visibleItemRenderer
 renameProp renderLabel labelRenderer
 renameProp isDisabled disabled

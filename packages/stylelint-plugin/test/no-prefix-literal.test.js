@@ -21,9 +21,9 @@ const stylelint = require("stylelint");
 
 const config = {
     customSyntax: "postcss-scss",
-    plugins: ["@blueprintjs/stylelint-plugin"],
+    plugins: ["@mach9/blueprint-stylelint-plugin"],
     rules: {
-        "@blueprintjs/no-prefix-literal": true,
+        "@mach9/blueprint-no-prefix-literal": true,
     },
 };
 
@@ -128,9 +128,9 @@ describe("no-prefix-literal", () => {
         const result = await stylelint.lint({
             files: "test/fixtures/no-prefix-literal/contains-bp3.scss",
             config: {
-                plugins: ["@blueprintjs/stylelint-plugin"],
+                plugins: ["@mach9/blueprint-stylelint-plugin"],
                 rules: {
-                    "@blueprintjs/no-prefix-literal": [
+                    "@mach9/blueprint-no-prefix-literal": [
                         true,
                         { disableFix: true, variablesImportPath: { sass: "some-path" } },
                     ],
@@ -144,9 +144,9 @@ describe("no-prefix-literal", () => {
         const result = await stylelint.lint({
             files: "test/fixtures/no-prefix-literal/contains-bp3.scss",
             config: {
-                plugins: ["@blueprintjs/stylelint-plugin"],
+                plugins: ["@mach9/blueprint-stylelint-plugin"],
                 rules: {
-                    "@blueprintjs/no-prefix-literal": [
+                    "@mach9/blueprint-no-prefix-literal": [
                         true,
                         {
                             disableFix: "yes",
@@ -198,7 +198,7 @@ describe("no-prefix-literal", () => {
             expect(warnings).lengthOf(0);
 
             const fixedSourceContents = fs.readFileSync(mutableFixturePath, { encoding: "utf-8" });
-            expect(fixedSourceContents).to.contain(`@import "~@blueprintjs/core/lib/scss/variables";`);
+            expect(fixedSourceContents).to.contain(`@import "~@mach9/blueprint-core/lib/scss/variables";`);
             expect(fixedSourceContents).to.contain(".#{$bp-ns}-tag {");
         });
     });

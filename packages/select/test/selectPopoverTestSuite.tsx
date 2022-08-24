@@ -18,7 +18,7 @@ import { assert } from "chai";
 import { ReactWrapper } from "enzyme";
 import * as sinon from "sinon";
 
-import { Classes as Popover2Classes } from "@blueprintjs/popover2";
+import { Classes as Popover2Classes } from "@mach9/blueprint-popover2";
 
 import { areFilmsEqual, filterFilm, IFilm, renderFilm, TOP_100_FILMS } from "../../docs-app/src/common/films";
 import { ListItemsProps, SelectPopoverProps } from "../src";

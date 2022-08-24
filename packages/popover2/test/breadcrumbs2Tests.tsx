@@ -27,7 +27,7 @@ import {
     MenuItem,
     OverflowList,
     OverflowListProps,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 
 import { Breadcrumbs2 } from "../src/breadcrumbs2";
 

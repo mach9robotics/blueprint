@@ -28,7 +28,7 @@ import {
     MenuItem,
     Popover,
     PopoverInteractionKind,
-    Text,
+    Text
 } from "../../src";
 
 describe("MenuItem", () => {
@@ -142,7 +142,7 @@ describe("MenuItem", () => {
             popoverClassName: "CUSTOM_POPOVER_CLASS_NAME",
         };
         const wrapper = shallow(
-            // eslint-disable-next-line @blueprintjs/no-deprecated-components
+            // eslint-disable-next-line @mach9/blueprint-no-deprecated-components
             <MenuItem icon="style" text="Style" popoverProps={popoverProps}>
                 <MenuItem text="one" />
                 <MenuItem text="two" />

@@ -20,7 +20,7 @@
  * package instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
@@ -38,7 +38,7 @@ import {
     Props,
     refHandler,
     setRef,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 
 import * as Classes from "./common/classes";
 import { isDateValid, isDayInRange } from "./common/dateUtils";
@@ -167,7 +167,7 @@ export interface IDateInputState {
     selectedShortcutIndex?: number;
 }
 
-/** @deprecated use { DateInput2 } from "@blueprintjs/datetime2" */
+/** @deprecated use { DateInput2 } from "@mach9/blueprint-datetime2" */
 export class DateInput extends AbstractPureComponent2<DateInputProps, IDateInputState> {
     public static displayName = `${DISPLAYNAME_PREFIX}.DateInput`;
 

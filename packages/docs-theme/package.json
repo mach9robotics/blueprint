@@ -1,5 +1,5 @@
 {
-    "name": "@blueprintjs/docs-theme",
+    "name": "@mach9/blueprint-docs-theme",
     "version": "4.4.0",
     "description": "Blueprint theme for documentalist",
     "main": "lib/cjs/index.js",
@@ -30,8 +30,8 @@
         "verify": "npm-run-all compile -p dist lint"
     },
     "dependencies": {
-        "@blueprintjs/core": "^4.9.0",
-        "@blueprintjs/select": "^4.6.0",
+        "@mach9/blueprint-core": "^4.9.0",
+        "@mach9/blueprint-select": "^4.6.0",
         "@documentalist/client": "^4.0.0",
         "classnames": "^2.2",
         "fuzzaldrin-plus": "^0.6.0",
@@ -42,7 +42,7 @@
         "react-dom": "^16.8 || 17 || 18"
     },
     "devDependencies": {
-        "@blueprintjs/node-build-scripts": "^5.1.0",
+        "@mach9/blueprint-node-build-scripts": "^5.1.0",
         "@types/fuzzaldrin-plus": "^0.6.1",
         "npm-run-all": "^4.1.5",
         "react": "^16.14.0",

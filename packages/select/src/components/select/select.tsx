@@ -19,7 +19,7 @@
  * All changes & bugfixes should be made to Select2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import classNames from "classnames";
 import * as React from "react";
@@ -35,8 +35,8 @@ import {
     Popover,
     Position,
     refHandler,
-    setRef,
-} from "@blueprintjs/core";
+    setRef
+} from "@mach9/blueprint-core";
 
 import { Classes, ListItemsProps } from "../../common";
 import { IQueryListRendererProps, QueryList } from "../query-list/queryList";
@@ -104,7 +104,7 @@ export interface ISelectState {
     isOpen: boolean;
 }
 
-/** @deprecated use { Select2 } from "@blueprintjs/select" */
+/** @deprecated use { Select2 } from "@mach9/blueprint-select" */
 export class Select<T> extends AbstractPureComponent2<SelectProps<T>, ISelectState> {
     public static displayName = `${DISPLAYNAME_PREFIX}.Select`;
 

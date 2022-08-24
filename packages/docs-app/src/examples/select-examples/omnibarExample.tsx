@@ -14,9 +14,9 @@
 
 import * as React from "react";
 
-import { Button, H5, HotkeysTarget2, KeyCombo, MenuItem, Position, Switch, Toaster } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange } from "@blueprintjs/docs-theme";
-import { Omnibar } from "@blueprintjs/select";
+import { Button, H5, HotkeysTarget2, KeyCombo, MenuItem, Position, Switch, Toaster } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange } from "@mach9/blueprint-docs-theme";
+import { Omnibar } from "@mach9/blueprint-select";
 
 import {
     areFilmsEqual,

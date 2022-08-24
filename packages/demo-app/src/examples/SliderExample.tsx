@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Slider } from "@blueprintjs/core";
+import { Slider } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 

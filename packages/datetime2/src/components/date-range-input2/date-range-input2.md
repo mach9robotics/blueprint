@@ -12,7 +12,7 @@ Migrating from [DateRangeInput](#datetime/daterangeinput)?
 </h4>
 
 DateRangeInput2 is a replacement for the [DateRangeInput component](#datetime/daterangeinput) from
-[__@blueprintjs/datetime__ package](#datetime) and will replace it in Blueprint v5.
+[__@mach9/blueprint-datetime__ package](#datetime) and will replace it in Blueprint v5.
 You are encouraged to use this new API now to ease the transition to the next major version of Blueprint.
 See the [migration guide](https://github.com/palantir/blueprint/wiki/datetime2-component-migration)
 on the wiki.

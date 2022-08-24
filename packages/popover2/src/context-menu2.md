@@ -25,8 +25,8 @@ interaction handlers.
 Create a context menu using the simple function component:
 
 ```tsx
-import { Menu, MenuItem } from "@blueprintjs/core";
-import { ContextMenu2 } from "@blueprintjs/popover2";
+import { Menu, MenuItem } from "@mach9/blueprint-core";
+import { ContextMenu2 } from "@mach9/blueprint-popover2";
 
 export default function ContextMenuExample() {
     return (
@@ -63,8 +63,8 @@ all the render props supplied to the `children()` function:
 
 ```tsx
 import classNames from "classnames";
-import { Menu } from "@blueprintjs/core";
-import { ContextMenu2, ContextMenu2ChildrenProps, MenuItem } from "@blueprintjs/popover2";
+import { Menu } from "@mach9/blueprint-core";
+import { ContextMenu2, ContextMenu2ChildrenProps, MenuItem } from "@mach9/blueprint-popover2";
 
 export default function AdvancedContextMenu2Example() {
     return (

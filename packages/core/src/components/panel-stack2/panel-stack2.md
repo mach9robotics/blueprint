@@ -48,7 +48,7 @@ the `props` defined by `Panel<T>`. These allow you to close the current panel or
 new one on top of it during the panel's lifecycle. For example:
 
 ```tsx
-import { Button, PanelProps } from "@blueprintjs/core";
+import { Button, PanelProps } from "@mach9/blueprint-core";
 
 type SettingsPanelInfo = { /* ...  */ };
 type AccountSettingsPanelInfo = { /* ...  */ };

@@ -17,8 +17,8 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { AbstractComponent2, Utils as CoreUtils } from "@blueprintjs/core";
-import { ContextMenu2, ContextMenu2ContentProps } from "@blueprintjs/popover2";
+import { AbstractComponent2, Utils as CoreUtils } from "@mach9/blueprint-core";
+import { ContextMenu2, ContextMenu2ContentProps } from "@mach9/blueprint-popover2";
 
 import type { CellCoordinates } from "./common/cellTypes";
 import * as Classes from "./common/classes";

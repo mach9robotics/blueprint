@@ -4,7 +4,7 @@
     <h4 class="@ns-heading">Newer API available</h4>
 
 There is an updated version of this component available in the new
-[__@blueprintjs/datetime2__ package](#datetime2) called
+[__@mach9/blueprint-datetime2__ package](#datetime2) called
 [DateInput2](#datetime2/date-input2). Its API is currently in development,
 but you are encouraged to try it out and provide feedback for the next
 version of the Blueprint date input.
@@ -53,7 +53,7 @@ A simple implementation using built-in browser methods could look like this:
 An implementation using __moment.js__ could look like this:
 
 ```tsx
-import { DateInput, DateFormatProps } from "@blueprintjs/datetime";
+import { DateInput, DateFormatProps } from "@mach9/blueprint-datetime";
 import moment from "moment";
 
 function getMomentFormatter(format: string): DateFormatProps {

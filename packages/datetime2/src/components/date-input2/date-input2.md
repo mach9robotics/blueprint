@@ -12,7 +12,7 @@ Migrating from [DateInput](#datetime/dateinput)?
 </h4>
 
 DateInput2 is a replacement for the [DateInput component](#datetime/dateinput) from
-[__@blueprintjs/datetime__ package](#datetime) and will replace it in Blueprint v5.
+[__@mach9/blueprint-datetime__ package](#datetime) and will replace it in Blueprint v5.
 You are encouraged to use this new API now to ease the transition to the next major version of Blueprint.
 See the [migration guide](https://github.com/palantir/blueprint/wiki/datetime2-component-migration)
 on the wiki.
@@ -55,7 +55,7 @@ third party libraries like __date-fns__.
 A simple implementation using built-in browser methods could look like this:
 
 ```tsx
-import { DateInput2 } from "@blueprintjs/datetime2";
+import { DateInput2 } from "@mach9/blueprint-datetime2";
 import { useCallback, useState } from "react";
 
 function Example() {
@@ -79,7 +79,7 @@ function Example() {
 An implementation using __date-fns__ could look like this:
 
 ```tsx
-import { DateInput2 } from "@blueprintjs/datetime2";
+import { DateInput2 } from "@mach9/blueprint-datetime2";
 import { format, parse } from "date-fns";
 import { useCallback, useState } from "react";
 

@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Menu, MenuItem } from "@blueprintjs/core";
+import { Menu, MenuItem } from "@mach9/blueprint-core";
 
 import { DATERANGEPICKER_SHORTCUTS } from "./common/classes";
 import { DateRange } from "./common/dateRange";
@@ -94,7 +94,7 @@ export class Shortcuts extends React.PureComponent<IShortcutsProps> {
 
         const shortcutElements = shortcuts.map((shortcut, index) => (
             // ok to use this here because it doesn't have a submenu
-            // eslint-disable-next-line deprecation/deprecation, @blueprintjs/no-deprecated-components
+            // eslint-disable-next-line deprecation/deprecation, @mach9/blueprint-no-deprecated-components
             <MenuItem
                 active={this.props.selectedShortcutIndex === index}
                 disabled={!this.isShortcutInRange(shortcut.dateRange)}

@@ -19,12 +19,12 @@
  * All changes & bugfixes should be made to Tooltip2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import * as React from "react";
 
-import { Button, Classes, H1, Intent, Popover, Position, Switch, Tooltip } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
+import { Button, Classes, H1, Intent, Popover, Position, Switch, Tooltip } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
 
 export class TooltipExample extends React.PureComponent<ExampleProps, { isOpen: boolean }> {
     public state = {

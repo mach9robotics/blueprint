@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { AbstractComponent2, Utils as CoreUtils, Props, setRef } from "@blueprintjs/core";
+import { AbstractComponent2, Props, setRef, Utils as CoreUtils } from "@mach9/blueprint-core";
 
 import * as Classes from "../common/classes";
 import { Grid } from "../common/grid";

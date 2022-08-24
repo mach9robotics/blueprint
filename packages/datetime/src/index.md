@@ -4,7 +4,7 @@ reference: datetime
 
 @# Datetime
 
-The [__@blueprintjs/datetime__ package](https://www.npmjs.com/package/@blueprintjs/datetime)
+The [__@mach9/blueprint-datetime__ package](https://www.npmjs.com/package/@mach9/blueprint-datetime)
 provides React components for interacting with dates and times:
 
 - [DatePicker](#datetime/datepicker) for selecting a single date (day, month, year).
@@ -25,19 +25,19 @@ provides React components for interacting with dates and times:
 Make sure to review the [getting started docs for installation info](#blueprint/getting-started).
 
 ```sh
-npm install --save @blueprintjs/datetime
+npm install --save @mach9/blueprint-datetime
 ```
 
 Import the package stylesheet in Sass:
 
 ```scss
-@import "~@blueprintjs/datetime/lib/css/blueprint-datetime.css";
+@import "~@mach9/blueprint-datetime/lib/css/blueprint-datetime.css";
 ```
 
 ...or in plain HTML:
 
 ```html
-<link href="path/to/node_modules/@blueprintjs/datetime/lib/css/blueprint-datetime.css" rel="stylesheet" />
+<link href="path/to/node_modules/@mach9/blueprint-datetime/lib/css/blueprint-datetime.css" rel="stylesheet" />
 ```
 
 @page datepicker

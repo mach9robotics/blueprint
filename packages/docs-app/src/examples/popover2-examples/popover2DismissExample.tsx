@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { Button, Callout, Classes as CoreClasses, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
-import { Classes, Popover2 } from "@blueprintjs/popover2";
+import { Button, Callout, Classes as CoreClasses, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
+import { Classes, Popover2 } from "@mach9/blueprint-popover2";
 
 export class Popover2DismissExample extends React.PureComponent<
     ExampleProps,

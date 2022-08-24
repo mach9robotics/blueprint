@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Button, ButtonGroup, Code, Label } from "@blueprintjs/core";
+import { Button, ButtonGroup, Code, Label } from "@mach9/blueprint-core";
 
 export type BooleanOrUndefined = undefined | false | true;
 

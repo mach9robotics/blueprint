@@ -4,7 +4,7 @@
     <h4 class="@ns-heading">Newer API available</h4>
 
 There is an updated version of this component available in the new
-[__@blueprintjs/datetime2__ package](#datetime2) called
+[__@mach9/blueprint-datetime2__ package](#datetime2) called
 [DateRangeInput2](#datetime2/date-range-input2). Its API is currently in development,
 but you are encouraged to try it out and provide feedback for the next
 version of the Blueprint date input.

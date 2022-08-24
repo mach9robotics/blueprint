@@ -29,7 +29,7 @@ import {
     Overlay,
     refHandler,
     Utils,
-} from "@blueprintjs/core";
+} from "@mach9/blueprint-core";
 
 import * as Classes from "./classes";
 import { matchReferenceWidthModifier } from "./customModifiers";

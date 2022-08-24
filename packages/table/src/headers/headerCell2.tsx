@@ -17,8 +17,8 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Classes as CoreClasses, Utils as CoreUtils, Props } from "@blueprintjs/core";
-import { ContextMenu2 } from "@blueprintjs/popover2";
+import { Classes as CoreClasses, Props, Utils as CoreUtils } from "@mach9/blueprint-core";
+import { ContextMenu2 } from "@mach9/blueprint-popover2";
 
 import * as Classes from "../common/classes";
 import type { ResizeHandle } from "../interactions/resizeHandle";

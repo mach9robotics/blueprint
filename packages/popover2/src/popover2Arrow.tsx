@@ -18,7 +18,7 @@ import { Placement } from "@popperjs/core";
 import * as React from "react";
 import { PopperArrowProps } from "react-popper";
 
-import { DISPLAYNAME_PREFIX } from "@blueprintjs/core";
+import { DISPLAYNAME_PREFIX } from "@mach9/blueprint-core";
 
 import * as Classes from "./classes";
 import { getBasePlacement } from "./utils";

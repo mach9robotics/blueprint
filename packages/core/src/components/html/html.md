@@ -39,14 +39,14 @@ See the [Running text](#core/typography.running-text) documentation for more inf
 
 @## Linting
 
-The [**@blueprintjs/eslint-config**](https://www.npmjs.com/package/@blueprintjs/eslint-config)
+The [**@mach9/blueprint-eslint-config**](https://www.npmjs.com/package/@mach9/blueprint-eslint-config)
 NPM package provides advanced configuration for [ESLint](https://eslint.org/). Blueprint is
 currently transitioning from [TSLint](https://palantir.github.io/tslint/) to ESLint, and as
 such, rules are being migrated from TSLint to ESLint. In the meantime, some TSLint rules are
 being run using ESLint.
 
-The [**@blueprintjs/eslint-plugin**](https://www.npmjs.com/package/@blueprintjs/eslint-plugin)
+The [**@mach9/blueprint-eslint-plugin**](https://www.npmjs.com/package/@mach9/blueprint-eslint-plugin)
 package includes a custom `blueprint-html-components` rule that will warn on usages of
 JSX intrinsic elements (`<h1>`) that have a Blueprint alternative (`<H1>`). See
-the package's [README](https://www.npmjs.com/package/@blueprintjs/eslint-plugin)
+the package's [README](https://www.npmjs.com/package/@mach9/blueprint-eslint-plugin)
 for usage instructions.

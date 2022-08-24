@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { Button, ButtonGroup, H1, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps } from "@blueprintjs/docs-theme";
-import { Classes, Popover2, Tooltip2 } from "@blueprintjs/popover2";
+import { Button, ButtonGroup, H1, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps } from "@mach9/blueprint-docs-theme";
+import { Classes, Popover2, Tooltip2 } from "@mach9/blueprint-popover2";
 
 export interface ITooltip2ExampleState {
     isOpen: boolean;

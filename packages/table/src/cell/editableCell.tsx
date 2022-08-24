@@ -22,14 +22,13 @@ import classNames from "classnames";
 import * as React from "react";
 
 import {
-    Utils as CoreUtils,
     DISPLAYNAME_PREFIX,
     EditableText,
     EditableTextProps,
     Hotkey,
     Hotkeys,
-    HotkeysTarget,
-} from "@blueprintjs/core";
+    HotkeysTarget, Utils as CoreUtils
+} from "@mach9/blueprint-core";
 
 import * as Classes from "../common/classes";
 import { Draggable } from "../interactions/draggable";
@@ -85,7 +84,7 @@ export interface IEditableCellState {
     dirtyValue?: string;
 }
 
-/** @deprecated use { EditableCell2, Table2 } from "@blueprintjs/table" */
+/** @deprecated use { EditableCell2, Table2 } from "@mach9/blueprint-table" */
 // eslint-disable-next-line deprecation/deprecation
 @HotkeysTarget
 export class EditableCell extends React.Component<IEditableCellProps, IEditableCellState> {

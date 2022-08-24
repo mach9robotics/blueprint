@@ -19,7 +19,7 @@
  * All changes & bugfixes should be made to JSONFormat2 instead.
  */
 
-/* eslint-disable deprecation/deprecation, @blueprintjs/no-deprecated-components */
+/* eslint-disable deprecation/deprecation, @mach9/blueprint-no-deprecated-components */
 
 import { expect } from "chai";
 import * as React from "react";

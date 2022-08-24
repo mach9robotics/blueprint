@@ -4,7 +4,7 @@ reference: select
 
 @# Select
 
-The [__@blueprintjs/select__ package](https://www.npmjs.com/package/@blueprintjs/select)
+The [__@mach9/blueprint-select__ package](https://www.npmjs.com/package/@mach9/blueprint-select)
 provides React components for to selecting items from a list:
 
 - [Select](#select/select-component) for selecting items in a list (DEPRECATED).
@@ -26,19 +26,19 @@ provides React components for to selecting items from a list:
 Make sure to review the [getting started docs for installation info](#blueprint/getting-started).
 
 ```sh
-npm install --save @blueprintjs/select
+npm install --save @mach9/blueprint-select
 ```
 
 Import the package stylesheet in Sass:
 
 ```scss
-@import "~@blueprintjs/select/lib/css/blueprint-select.css";
+@import "~@mach9/blueprint-select/lib/css/blueprint-select.css";
 ```
 
 ...or in plain HTML:
 
 ```html
-<link href="path/to/node_modules/@blueprintjs/select/lib/css/blueprint-select.css" rel="stylesheet" />
+<link href="path/to/node_modules/@mach9/blueprint-select/lib/css/blueprint-select.css" rel="stylesheet" />
 ```
 
 @page select-component

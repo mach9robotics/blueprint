@@ -1,3 +1,3 @@
-# @blueprintjs/webpack-build-scripts
+# @mach9/blueprint-webpack-build-scripts
 
 This is kept as a separate package to isolate the list of webpack-related NPM dependencies.

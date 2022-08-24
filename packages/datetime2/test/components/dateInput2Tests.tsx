@@ -21,9 +21,9 @@ import { mount, ReactWrapper } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { Classes as CoreClasses, InputGroup, Keys } from "@blueprintjs/core";
-import { DatePicker, Classes as DatetimeClasses, Months, TimePrecision, TimeUnit } from "@blueprintjs/datetime";
-import { Popover2, Classes as Popover2Classes } from "@blueprintjs/popover2";
+import { Classes as CoreClasses, InputGroup, Keys } from "@mach9/blueprint-core";
+import { Classes as DatetimeClasses, DatePicker, Months, TimePrecision, TimeUnit } from "@mach9/blueprint-datetime";
+import { Classes as Popover2Classes, Popover2 } from "@mach9/blueprint-popover2";
 
 import { Classes, DateInput2, DateInput2Props, TimezoneSelect } from "../../src";
 import { getCurrentTimezone } from "../../src/common/getTimezone";

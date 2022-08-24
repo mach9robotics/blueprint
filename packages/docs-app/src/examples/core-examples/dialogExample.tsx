@@ -16,9 +16,9 @@
 
 import * as React from "react";
 
-import { AnchorButton, Button, Classes, Code, Dialog, DialogProps, H5, Switch } from "@blueprintjs/core";
-import { Example, ExampleProps, handleBooleanChange } from "@blueprintjs/docs-theme";
-import { Tooltip2 } from "@blueprintjs/popover2";
+import { AnchorButton, Button, Classes, Code, Dialog, DialogProps, H5, Switch } from "@mach9/blueprint-core";
+import { Example, ExampleProps, handleBooleanChange } from "@mach9/blueprint-docs-theme";
+import { Tooltip2 } from "@mach9/blueprint-popover2";
 
 import { IBlueprintExampleData } from "../../tags/types";
 

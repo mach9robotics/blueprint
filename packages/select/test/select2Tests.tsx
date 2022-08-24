@@ -19,8 +19,8 @@ import { mount } from "enzyme";
 import * as React from "react";
 import * as sinon from "sinon";
 
-import { InputGroup, Keys, MenuItem } from "@blueprintjs/core";
-import { Popover2 } from "@blueprintjs/popover2";
+import { InputGroup, Keys, MenuItem } from "@mach9/blueprint-core";
+import { Popover2 } from "@mach9/blueprint-popover2";
 
 import { IFilm, renderFilm, TOP_100_FILMS } from "../../docs-app/src/common/films";
 import { ItemRendererProps, Select2, Select2Props, Select2State } from "../src";

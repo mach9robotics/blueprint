@@ -4,7 +4,7 @@ tag: new
 
 @# Table2
 
-As of `@blueprintjs/table` v3.9.0, there are two versions of the table component API,
+As of `@mach9/blueprint-table` v3.9.0, there are two versions of the table component API,
 [Table](#table/api.table) and [Table2](#table/table2). All of the documentation examples
 on this site demonstrate the newer Table2 API. You are encouraged to migrate to Table2
 for forwards-compatibility with future major versions of Blueprint.
@@ -15,12 +15,12 @@ The two APIs are functionally identical except for the fact that Table2 uses the
 ([ContextMenu2](#popover2-package/context-menu2)) and the new hotkeys API (via
 [HotkeysTarget2](#core/components/hotkeys-target2)). This means that in order to use Table2, you must:
 
-- include `@blueprintjs/popover2/lib/css/blueprint-popover2.css` on the page
+- include `@mach9/blueprint-popover2/lib/css/blueprint-popover2.css` on the page
 - configure a [HotkeysProvider](#core/context/hotkeys-provider) in your application
 
 ```tsx
-import { HotkeysProvider } from "@blueprintjs/core";
-import { Column, Table2 } from "@blueprintjs/table";
+import { HotkeysProvider } from "@mach9/blueprint-core";
+import { Column, Table2 } from "@mach9/blueprint-table";
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -36,7 +36,7 @@ ReactDOM.render(
 );
 ```
 
-For more information, see the [@blueprintjs/popover2 documentation](#popover2-package) and
+For more information, see the [@mach9/blueprint-popover2 documentation](#popover2-package) and
 [hotkeys migration guide](https://github.com/palantir/blueprint/wiki/HotkeysTarget-&-useHotkeys-migration).
 
 @## ColumnHeaderCell2

@@ -63,7 +63,7 @@ by using the component in controlled mode and with the `modifiers` prop:
 
 ```tsx
 // in TypeScript
-import { DatePicker } from "@blueprintjs/datetime";
+import { DatePicker } from "@mach9/blueprint-datetime";
 
 export class DatePickerExample extends React.Component<{}, { selectedDate: Date }> {
     public state = { selectedDate: new Date() };
@@ -108,7 +108,7 @@ You will need to define the functions of `LocaleUtil` on your own.
 [See the interface definition](https://github.com/gpbl/react-day-picker/blob/v7.3.0/types/utils.d.ts#L5)
 for more details.
 
-Although `@blueprintjs/datetime` and `react-day-picker` do not explicitly require
+Although `@mach9/blueprint-datetime` and `react-day-picker` do not explicitly require
 [__moment.js__](https://momentjs.com/) or [__date-fns__](https://date-fns.org/) as dependencies,
 you may wish to use those third-party implementations of localization so that you do not have to
 write these functions yourself.

@@ -19,10 +19,10 @@ import { expect } from "chai";
 import * as React from "react";
 import { SinonStub, spy, stub } from "sinon";
 
-import { InputGroup } from "@blueprintjs/core";
+import { InputGroup } from "@mach9/blueprint-core";
 // N.B. { fireEvent } from "@testing-library/react" does not generate "real" enough events which
 // work with our hotkey parser implementation (worth investigating...)
-import { dispatchTestKeyboardEvent } from "@blueprintjs/test-commons";
+import { dispatchTestKeyboardEvent } from "@mach9/blueprint-test-commons";
 
 import { HotkeysProvider } from "../../src/context";
 import { useHotkeys } from "../../src/hooks";

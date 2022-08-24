@@ -20,7 +20,7 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { spy } from "sinon";
 
-import { expectPropValidationError } from "@blueprintjs/test-commons";
+import { expectPropValidationError } from "@mach9/blueprint-test-commons";
 
 import { Classes, Toaster, ToasterInstance } from "../../src";
 import { TOASTER_CREATE_NULL, TOASTER_MAX_TOASTS_INVALID } from "../../src/common/errors";

@@ -16,7 +16,7 @@
 
 import * as React from "react";
 
-import { Button, Classes, Dialog } from "@blueprintjs/core";
+import { Button, Classes, Dialog } from "@mach9/blueprint-core";
 
 import { ExampleCard } from "./ExampleCard";
 
